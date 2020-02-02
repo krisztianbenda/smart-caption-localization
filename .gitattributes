@@ -1,3 +1,4 @@
 docs/example-photos/felirat_pelda.mov filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
 src/logo_detector/YOLOv2_logo_detection_10000th_iteration.weights filter=lfs diff=lfs merge=lfs -text
+src/object_detector/yolov3.weights filter=lfs diff=lfs merge=lfs -text
