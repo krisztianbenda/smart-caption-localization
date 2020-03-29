@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+docs/dipterv1-submission/presentation.pdf
+docs/example-photos/felirat_pelda.mov
+docs/sources/Logo-kereses-kep-tipusu-nagy-adathalmazokban-Dolgozat-1.pdf
+docs/sources/Logo-kereses-kep-tipusu-nagy-adathalmazokban-Feladatkiiras-1.pdf
+docs/sources/Szemmozgas-kovetesen-alapulo-vizualis-Dolgozat-1.pdf
+src/text_detector/frozen_east_text_detection.pb
