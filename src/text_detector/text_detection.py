@@ -21,6 +21,8 @@ ap.add_argument("-w", "--width", type=int, default=320,
 	help="resized image width (should be multiple of 32)")
 ap.add_argument("-e", "--height", type=int, default=320,
 	help="resized image height (should be multiple of 32)")
+ap.add_argument("-o", "--output", type=str,
+	help="path to output image")
 args = vars(ap.parse_args())
 
 # load the input image and grab the image dimensions
@@ -148,4 +150,4 @@ for (startX, startY, endX, endY) in boxes:
 				enabling_map[y, x] = 1
 
 enabling_map_image = Image.fromarray(enabling_map)
-enabling_map_image.save("./src/detection_results/text_detected.tiff")
+enabling_map_image.save(args["output"])

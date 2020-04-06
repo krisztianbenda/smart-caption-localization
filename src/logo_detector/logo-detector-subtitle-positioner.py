@@ -9,6 +9,8 @@ from PIL import Image
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", type=str,
 	help="path to input image")
+ap.add_argument("-o", "--output", type=str,
+	help="path to output image")
 args = vars(ap.parse_args())
 
 processing_image = args["image"]
@@ -66,4 +68,4 @@ for obj in detected_objects:
                     enabling_map[y,x] = 1
 
 enabling_map_image = Image.fromarray(enabling_map)
-enabling_map_image.save("../detection_results/logo_detected.tiff")
+enabling_map_image.save(args["output"])
