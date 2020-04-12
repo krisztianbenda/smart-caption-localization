@@ -1,3 +1,6 @@
+# USAGE
+# python src/subtitle_burner/subtitle_burner.py --image ~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/test_images/4cars.png --output ~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/subtitle_burner -x 710 -y 425 --subtitle_size 72 --text 'have their time in the sun. Lied a little bit. How about third place Martin Truex in' --subtitle_width 1000 --subtitle_height 130
+
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 

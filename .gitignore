@@ -1,3 +1,6 @@
+# result files
+src/video_manager/frames/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
