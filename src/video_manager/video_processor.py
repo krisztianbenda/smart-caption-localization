@@ -4,10 +4,40 @@ import subprocess
 import shutil
 from detector_runner import get_coordinates
 from srt_processing import SRTHandler
+import pysubs2
+import argparse
+import math
 
-srt_handler = SRTHandler('test_videos/sky_news_test.srt')
-vidcap = cv2.VideoCapture('test_videos/sky_news_test.mp4')
-success,image = vidcap.read()
+ap = argparse.ArgumentParser()
+ap.add_argument("-is", "--input_srt", type=str,
+	help="path to input srt")
+ap.add_argument("-iv", "--input_video", type=str,
+	help="path to input video (mp4)")
+ap.add_argument("-o", "--output_ass", type=str,
+	help="path to the output")
+args = vars(ap.parse_args()) 
+
+srt_handler = SRTHandler(args['input_srt'])
+subtitle = pysubs2.load(args['input_srt'])
+
+vidcap = cv2.VideoCapture(args['input_video'])
+width = vidcap.get(cv2.CAP_PROP_FRAME_WIDTH)
+height = vidcap.get(cv2.CAP_PROP_FRAME_HEIGHT)
+print("The input audio has width:%d and height:%d" % (width, height))
+
+subtitle.info['PlayResX'] = width
+subtitle.info['PlayResY'] = height
+''' 
+Default font size calculated from the (1920x1080) diagonal and 65 fontsize's rate
+  sqrt(1920^2 + 1080^2) / 65 = input_diagonal / default_size
+'''
+
+default_fontsize = math.sqrt(width ** 2 + height ** 2) / (math.sqrt(1920 ** 2 + 1080 ** 2) / 65)
+print("Default fontsize will be: {}".format(default_fontsize))
+default_style = pysubs2.SSAStyle(fontsize=default_fontsize)
+subtitle.styles['Default'] = default_style
+
+success, image = vidcap.read()
 count = 0
 while success:
   fps = vidcap.get(cv2.CAP_PROP_FPS)
@@ -18,7 +48,9 @@ while success:
 #   print(seconds)
   if milliseconds >= srt_handler.get_start_time_milliseconds():
 #   if seconds % 1.0 == 0.0: # every sec
-    print(seconds)
+    print("The %dth frame at the %d second will be processed." % (count, seconds))
+    print("ANAYD", __file__)
+    print("ANAYD2", os.path.abspath(__file__))
     file_dir = os.path.dirname(os.path.abspath(__file__))
     frame_dir = os.path.join(file_dir, "frames", "frame_%d" % count)
 
@@ -27,27 +59,26 @@ while success:
     try:
         os.mkdir(frame_dir)
     except OSError:
-        print("Creation of the directory %s failed" % frame_dir)
+        print("Creation of the directory %s failed." % frame_dir)
         raise
 
     frame_file = os.path.join(frame_dir, "frame_%d.jpg" % count) 
-    print(frame_file)
+    print("Frame files will be created at: %s." % frame_file)
     cv2.imwrite(frame_file, image)     # save frame as JPEG file     
 
-    # runner_script = os.path.join(os.path.dirname(file_dir), 'runner', 'runner.py')
-    # command = ['python', runner_script,
-    #     '--image', frame_file,
-    #     '-o', os.path.join(frame_dir, "detection_results"), 
-    #     '--detectors', 'ct', '-sh', '130', '-w', '1000']
-    # p = subprocess.Popen(" ".join(command), stdout=subprocess.PIPE, shell=True)
-    # (output, err) = p.communicate()
-    # p_status = p.wait()
-    x, y = get_coordinates(frame_file, os.path.join(frame_dir, "detection_results"), 'ct', 1000, 130)
-    print("FOUNDED: %d and %d" % (x, y))
+    x, y = get_coordinates(frame_file, os.path.join(frame_dir, "detection_results"), 'cto', 1000, 130)
+    print("The best place has been found at x:%d y:%d position." % (x, y))
+    subtitle[srt_handler.get_block_number()].marginl = x
+    subtitle[srt_handler.get_block_number()].marginr = width - 1000 - x
+    subtitle[srt_handler.get_block_number()].marginv = height - 130 - y
     
+    
+
     if not srt_handler.next():
         break
 
   success,image = vidcap.read()
 #   print('Read a new frame: ', success)
   count += 1
+
+subtitle.save(os.path.join(args['output_ass']))

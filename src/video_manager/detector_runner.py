@@ -49,6 +49,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
         p_status = p.wait()
 
     def run_object():
+        original_cwd = os.getcwd()
         os.chdir('/Users/krisz/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector')
         object_command = ['python', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector/object-detector-subtitle-positioner.py',
             '--image', image_path,
@@ -56,6 +57,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
         p = subprocess.Popen(" ".join(object_command), stdout=subprocess.PIPE, shell=True)
         (output, err) = p.communicate()
         p_status = p.wait()
+        os.chdir(original_cwd)
 
     def run_text():
         text_command = ['python', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/text_detector/text_detection.py',
@@ -106,13 +108,14 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
         logo_thread.join()
         images.append(np.array(Image.open(output_folder + '/logo_detected.tiff')))
 
-    print(images[1].shape)
-    print(images[1][160][60])
-    print(images[1][1][1])
+    # print("The image shape is:", images[1].shape)
+    # print(images[1][160][60])
+    # print(images[1][1][1])
 
-    print(images[0].shape)
-    print(images[0][23][41]) # white
-    print(images[0][1][1]) # black
+    # print(images[0].shape)
+    # print(images[0][23][41]) # white
+    # print(images[0][1][1]) # black
+    print("The image shape is:{}".format(images[0].shape))
 
     width, height = Image.open(image_path).size
     enabling_map = np.zeros((height, width))
@@ -160,7 +163,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
         x = 0
         y -= y_step
 
-    print(min_x, min_y)
+    # print(min_x, min_y)
 
     def save_rectangle(image, x,y,width,height):
         image[y:y+height, x:x+width] = 1
@@ -168,7 +171,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
         enabling_map_image.save(output_folder + '/enabling_map_rectangle.tiff')
 
     save_rectangle(emap, min_x, min_y, swidth, sheight)
-    print("THE RESULT IS: x={} and y={} pixel from the top left corner".format(min_x, min_y))
+    # print("THE RESULT IS: x={} and y={} pixel from the top left corner".format(min_x, min_y))
     return (min_x, min_y)
 
 if __name__ == "__main__":

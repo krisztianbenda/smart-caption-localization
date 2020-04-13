@@ -24,3 +24,6 @@ class SRTHandler:
     def get_start_time_milliseconds(self) -> float:
         t = self.srt[self.current_block].start.to_time()
         return ((t.hour * 60 + t.minute) * 60 + t.second) * 1000 + t.microsecond/1000
+
+    def get_block_number(self) -> int:
+        return self.current_block
