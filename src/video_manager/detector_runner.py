@@ -41,7 +41,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
     print("Successfully created directory: %s" % output_folder)
 
     def run_canny():
-        canny_command = ['python', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/canny_edge_detector/fast_detector.py',
+        canny_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/canny_edge_detector/fast_detector.py',
             '--image', image_path, 
             '--output', output_folder + '/canny_detected.tiff']
         p = subprocess.Popen(" ".join(canny_command), stdout=subprocess.PIPE, shell=True)
@@ -51,7 +51,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
     def run_object():
         original_cwd = os.getcwd()
         os.chdir('/Users/krisz/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector')
-        object_command = ['python', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector/object-detector-subtitle-positioner.py',
+        object_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector/object-detector-subtitle-positioner.py',
             '--image', image_path,
             '--output', output_folder + '/object_detected.tiff']
         p = subprocess.Popen(" ".join(object_command), stdout=subprocess.PIPE, shell=True)
@@ -60,7 +60,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
         os.chdir(original_cwd)
 
     def run_text():
-        text_command = ['python', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/text_detector/text_detection.py',
+        text_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/text_detector/text_detection.py',
             '--image', image_path,
             '--east', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/text_detector/frozen_east_text_detection.pb',
             '--output', output_folder + '/text_detected.tiff',
@@ -70,7 +70,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
         p_status = p.wait()
 
     def run_logo():
-        logo_command = ['python', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/logo_detector/logo-detector-subtitle-positioner.py',
+        logo_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/logo_detector/logo-detector-subtitle-positioner.py',
             '--image', image_path,
             '--output', output_folder + '/logo_detected.tiff'
         ]
