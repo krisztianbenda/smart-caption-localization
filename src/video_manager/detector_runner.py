@@ -23,13 +23,80 @@ ap.add_argument("-w", "--subtitle_width", type=int,
 ap.add_argument("-sh", "--subtitle_height", type=int,
     help="the subtitle rectangle height in pixel")
 
+class ImageHandler:
+    def __init__(self):
+        self.images = []
+
+    def add_image(self, image):
+        self.images.append(image)
+        return self
+
+    def get_images(self):
+        return self.images
+        
+def count_edge_ratio(area):
+    return np.sum(area) / np.asarray(area).size
+
 def main():
     args = vars(ap.parse_args())
-    get_coordinates(args['image'], args['output_folder'], args['detectors'], args['subtitle_width'], args['subtitle_height'])
+    image_handler = ImageHandler()
+    image_handler.add_image(args['image'])
+    get_coordinates(image_handler, args['output_folder'], args['detectors'], args['subtitle_width'], args['subtitle_height'])
+
+def save_rectangle(image, x, y, width, height, output_folder):
+    image[y:y+height, x:x+width] = 1
+    enabling_map_image = Image.fromarray(image * 255)
+    enabling_map_image.save(output_folder + '/enabling_map_rectangle.tiff')
+
+def run_canny(image_path, output_file):
+    canny_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/canny_edge_detector/fast_detector.py',
+        '--image', image_path, 
+        '--output', output_file]
+    p = subprocess.Popen(" ".join(canny_command), stdout=subprocess.PIPE, shell=True)
+    #(output, err) = p.communicate()
+    p.communicate()
+    # p_status = p.wait()
+    p.wait()
+
+def run_object(image_path, output_file):
+    original_cwd = os.getcwd()
+    os.chdir('/Users/krisz/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector')
+    object_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector/object-detector-subtitle-positioner.py',
+        '--image', image_path,
+        '--output', output_file,
+        '2>/dev/null'] # Hide the unnecessary net build log
+    p = subprocess.Popen(" ".join(object_command), stdout=subprocess.PIPE, shell=True)
+    # (output, err) = p.communicate()
+    # p_status = p.wait()
+    p.communicate()
+    p.wait()
+    os.chdir(original_cwd)
+
+def run_text(image_path, output_file):
+    text_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/text_detector/text_detection.py',
+        '--image', image_path,
+        '--east', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/text_detector/frozen_east_text_detection.pb',
+        '--output', output_file,
+        '-c', '0.000125']
+    p = subprocess.Popen(" ".join(text_command), stdout=subprocess.PIPE, shell=True)
+    # (output, err) = p.communicate()
+    # p_status = p.wait()
+    p.communicate()
+    p.wait()
+
+def run_logo(image_path, output_file):
+    logo_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/logo_detector/logo-detector-subtitle-positioner.py',
+        '--image', image_path,
+        '--output', output_file
+    ]
+    p = subprocess.Popen(" ".join(logo_command), stdout=subprocess.PIPE, shell=True)
+    # (output, err) = p.communicate()
+    # p_status = p.wait()
+    p.communicate()
+    p.wait()
 
 # runner returns with the best coordinates based on the detectors
-def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtitle_height) -> (int, int):
-
+def get_coordinates(image_handler, output_folder, detectors, subtitle_width, subtitle_height) -> (int, int):
     if os.path.isdir(output_folder):
         shutil.rmtree(output_folder)
     try:
@@ -37,87 +104,45 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
     except OSError:
         print("Creation of the directory %s failed" % output_folder)
         raise
-
     print("Successfully created directory: %s" % output_folder)
 
-    def run_canny():
-        canny_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/canny_edge_detector/fast_detector.py',
-            '--image', image_path, 
-            '--output', output_folder + '/canny_detected.tiff']
-        p = subprocess.Popen(" ".join(canny_command), stdout=subprocess.PIPE, shell=True)
-        (output, err) = p.communicate()
-        p_status = p.wait()
-
-    def run_object():
-        original_cwd = os.getcwd()
-        os.chdir('/Users/krisz/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector')
-        object_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/object_detector/object-detector-subtitle-positioner.py',
-            '--image', image_path,
-            '--output', output_folder + '/object_detected.tiff']
-        p = subprocess.Popen(" ".join(object_command), stdout=subprocess.PIPE, shell=True)
-        (output, err) = p.communicate()
-        p_status = p.wait()
-        os.chdir(original_cwd)
-
-    def run_text():
-        text_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/text_detector/text_detection.py',
-            '--image', image_path,
-            '--east', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/text_detector/frozen_east_text_detection.pb',
-            '--output', output_folder + '/text_detected.tiff',
-            '-c', '0.000125']
-        p = subprocess.Popen(" ".join(text_command), stdout=subprocess.PIPE, shell=True)
-        (output, err) = p.communicate()
-        p_status = p.wait()
-
-    def run_logo():
-        logo_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/logo_detector/logo-detector-subtitle-positioner.py',
-            '--image', image_path,
-            '--output', output_folder + '/logo_detected.tiff'
-        ]
-        p = subprocess.Popen(" ".join(logo_command), stdout=subprocess.PIPE, shell=True)
-        (output, err) = p.communicate()
-        p_status = p.wait()
-
-
-    canny_thread = Thread(target=run_canny)
-    object_thread = Thread(target=run_object)
-    text_thread = Thread(target=run_text)
-    logo_thread = Thread(target=run_logo)
-
-    if 'c' in detectors:
-        canny_thread.start()
-    if 'o' in detectors:    
-        object_thread.start()
-    if 't' in detectors:
-        text_thread.start()
-    if 'l' in detectors:    
-        logo_thread.start()
-
     images = []
-    if 'c' in detectors:
-        canny_thread.join()
-        canny_map = np.array(Image.open(output_folder + '/canny_detected.tiff'))
-        images.append(np.where(canny_map==255,1,canny_map))
-    if 'o' in detectors:
-        object_thread.join()
-        images.append(np.array(Image.open(output_folder + '/object_detected.tiff')))
-    if 't' in detectors:
-        text_thread.join()
-        images.append(np.array(Image.open(output_folder + '/text_detected.tiff')))
-    if 'l' in detectors:
-        logo_thread.join()
-        images.append(np.array(Image.open(output_folder + '/logo_detected.tiff')))
+    image_paths = image_handler.get_images()
+    for image_number in range(0, len(image_handler.get_images())):
+        if 'c' in detectors:
+            canny_output_file = os.path.join(output_folder, 'canny_detected_' + str(image_number) + '.tiff')
+            canny_thread = Thread(target=run_canny, args=(image_paths[image_number], canny_output_file))
+            canny_thread.start()
+        if 'o' in detectors:  
+            object_output_file = os.path.join(output_folder, 'object_detected_' + str(image_number) + '.tiff')
+            object_thread = Thread(target=run_object, args=(image_paths[image_number], object_output_file))
+            object_thread.start()
+        if 't' in detectors:
+            text_output_file = os.path.join(output_folder, 'text_detected_' + str(image_number) + '.tiff')
+            text_thread = Thread(target=run_text, args=(image_paths[image_number], text_output_file))
+            text_thread.start()
+        if 'l' in detectors:    
+            logo_output_file = os.path.join(output_folder, 'logo_detected_' + str(image_number) + '.tiff')
+            logo_thread = Thread(target=run_logo, args=(image_paths[image_number], logo_output_file))
+            logo_thread.start()
 
-    # print("The image shape is:", images[1].shape)
-    # print(images[1][160][60])
-    # print(images[1][1][1])
+        if 'c' in detectors:
+            canny_thread.join()
+            canny_map = np.array(Image.open(canny_output_file))
+            images.append(np.where(canny_map==255,1,canny_map))
+        if 'o' in detectors:
+            object_thread.join()
+            images.append(np.array(Image.open(object_output_file)))
+        if 't' in detectors:
+            text_thread.join()
+            images.append(np.array(Image.open(text_output_file)))
+        if 'l' in detectors:
+            logo_thread.join()
+            images.append(np.array(Image.open(logo_output_file)))
 
-    # print(images[0].shape)
-    # print(images[0][23][41]) # white
-    # print(images[0][1][1]) # black
     print("The image shape is:{}".format(images[0].shape))
 
-    width, height = Image.open(image_path).size
+    width, height = Image.open(image_paths[0]).size
     enabling_map = np.zeros((height, width))
     for image in images:
         enabling_map = enabling_map + image
@@ -127,9 +152,6 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
     enabling_map_image = Image.fromarray(normalized_enabling_map * 255)
     enabling_map_image.save(output_folder + '/enabling_map.tiff')
 
-    def count_edge_ratio(area):
-        return np.sum(area) / np.asarray(area).size
-
     swidth = int(subtitle_width)
     sheight = int(subtitle_height)
     x_step = 10
@@ -138,7 +160,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
     emap = normalized_enabling_map # for shortern name
     min_edge_ratio = 1
     min_x = int(width/2 - swidth/2) # the default place is the usual
-    min_y = 2 * sheight 
+    min_y = height - (2 * sheight)
     while y > 0:
         while x + swidth < width:
             area = emap[y:y+sheight, x:x+swidth]
@@ -164,13 +186,7 @@ def get_coordinates(image_path, output_folder, detectors, subtitle_width, subtit
         y -= y_step
 
     # print(min_x, min_y)
-
-    def save_rectangle(image, x,y,width,height):
-        image[y:y+height, x:x+width] = 1
-        enabling_map_image = Image.fromarray(image * 255)
-        enabling_map_image.save(output_folder + '/enabling_map_rectangle.tiff')
-
-    save_rectangle(emap, min_x, min_y, swidth, sheight)
+    save_rectangle(emap, min_x, min_y, swidth, sheight, output_folder)
     # print("THE RESULT IS: x={} and y={} pixel from the top left corner".format(min_x, min_y))
     return (min_x, min_y)
 

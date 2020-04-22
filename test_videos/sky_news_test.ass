@@ -10,20 +10,407 @@ ScriptType: v4.00+
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,54.99999999999999,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,2.0,2.0,2,10,10,10,1
+Style: Default,Arial,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,2.0,2.0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.14,0:00:05.67,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
-Dialogue: 0,0:00:05.67,0:00:09.02,Default,,630,650.0,291.0,,to watch them. It's not as a reminder to say that some,
-Dialogue: 0,0:00:09.06,0:00:12.81,Default,,930,165.0,811.0,,the viruses have a massive impact on people's daily lives.
-Dialogue: 0,0:00:13.00,0:00:15.00,Default,,710,675.0,381.0,,And their routines with is also the massive
-Dialogue: 0,0:00:15.20,0:00:18.01,Default,,750,498.0,351.0,,economic impacts. Because room at this time of year
-Dialogue: 0,0:00:18.17,0:00:23.01,Default,,760,518.0,381.0,,would be filled with tourists traveling that Easter break.
-Dialogue: 0,0:00:23.84,0:00:26.32,Default,,670,494.0,251.0,,But of course, the hotels, shops and restaurants are shot.
-Dialogue: 0,0:00:26.52,0:00:28.60,Default,,710,552.0,341.0,,American tourists are being told to stay away.
-Dialogue: 0,0:00:28.60,0:00:31.88,Default,,750,521.0,341.0,,The city's, you know, pretty much empty objects in long
-Dialogue: 0,0:00:31.96,0:00:34.85,Default,,740,535.0,371.0,,looked down and not to set to continue further.
-Dialogue: 0,0:00:35.58,0:00:37.06,Default,,710,634.0,391.0,,Okay, Michelle. Thanks.
-Dialogue: 0,0:00:39.07,0:00:41.04,Default,,680,430.0,321.0,,It was his gun is today coming out
-Dialogue: 0,0:00:42.23,0:00:45.34,Default,,810,549.0,691.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:01.14,0:00:01.20,Default,,640,640.0,108.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:01.20,0:00:01.30,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:01.30,0:00:01.40,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:01.40,0:00:01.50,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:01.50,0:00:01.60,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:01.60,0:00:01.70,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:01.70,0:00:01.80,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:01.80,0:00:01.90,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:01.90,0:00:02.00,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.00,0:00:02.10,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.10,0:00:02.20,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.20,0:00:02.30,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.30,0:00:02.40,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.40,0:00:02.50,Default,,670,644.0,511.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.50,0:00:02.60,Default,,680,634.0,511.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.60,0:00:02.70,Default,,680,634.0,521.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.70,0:00:02.80,Default,,690,624.0,521.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.80,0:00:02.90,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:02.90,0:00:03.00,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.00,0:00:03.10,Default,,660,654.0,491.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.10,0:00:03.20,Default,,660,654.0,471.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.20,0:00:03.30,Default,,660,654.0,451.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.30,0:00:03.40,Default,,660,654.0,451.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.40,0:00:03.50,Default,,660,654.0,441.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.50,0:00:03.60,Default,,660,654.0,871.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.60,0:00:03.70,Default,,420,894.0,431.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.70,0:00:03.80,Default,,440,874.0,281.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.80,0:00:03.90,Default,,470,844.0,281.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:03.90,0:00:04.00,Default,,490,824.0,281.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.00,0:00:04.10,Default,,500,814.0,431.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.10,0:00:04.20,Default,,510,804.0,431.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.20,0:00:04.30,Default,,520,794.0,361.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.30,0:00:04.40,Default,,520,794.0,321.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.40,0:00:04.50,Default,,540,774.0,321.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.50,0:00:04.60,Default,,570,744.0,331.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.60,0:00:04.70,Default,,440,874.0,351.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.70,0:00:04.80,Default,,660,654.0,281.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.80,0:00:04.90,Default,,660,654.0,341.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:04.90,0:00:05.00,Default,,660,654.0,321.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:05.00,0:00:05.10,Default,,660,654.0,301.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:05.10,0:00:05.20,Default,,490,824.0,341.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:05.20,0:00:05.30,Default,,490,824.0,341.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:05.30,0:00:05.40,Default,,500,814.0,351.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:05.40,0:00:05.50,Default,,580,734.0,291.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:05.50,0:00:05.60,Default,,570,744.0,281.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:05.60,0:00:05.67,Default,,630,684.0,291.0,,Inside the church and will be streamed out for people
+Dialogue: 0,0:00:05.67,0:00:05.70,Default,,630,684.0,291.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:05.70,0:00:05.80,Default,,620,660.0,231.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:05.80,0:00:05.90,Default,,690,590.0,391.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:05.90,0:00:06.00,Default,,670,610.0,381.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.00,0:00:06.10,Default,,670,610.0,381.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.10,0:00:06.20,Default,,660,620.0,381.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.20,0:00:06.30,Default,,650,630.0,381.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.30,0:00:06.40,Default,,650,630.0,381.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.40,0:00:06.50,Default,,640,640.0,381.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.50,0:00:06.60,Default,,640,640.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.60,0:00:06.70,Default,,640,640.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.70,0:00:06.80,Default,,640,640.0,361.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.80,0:00:06.90,Default,,640,640.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:06.90,0:00:07.00,Default,,640,640.0,361.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.00,0:00:07.10,Default,,640,640.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.10,0:00:07.20,Default,,640,640.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.20,0:00:07.30,Default,,640,640.0,361.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.30,0:00:07.40,Default,,640,640.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.40,0:00:07.50,Default,,630,650.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.50,0:00:07.60,Default,,620,660.0,361.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.60,0:00:07.70,Default,,630,650.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.70,0:00:07.80,Default,,640,640.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.80,0:00:07.90,Default,,650,630.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:07.90,0:00:08.00,Default,,660,620.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.00,0:00:08.10,Default,,660,620.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.10,0:00:08.20,Default,,680,600.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.20,0:00:08.30,Default,,670,610.0,351.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.30,0:00:08.40,Default,,700,580.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.40,0:00:08.50,Default,,710,570.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.50,0:00:08.60,Default,,730,550.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.60,0:00:08.70,Default,,730,550.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.70,0:00:08.80,Default,,750,530.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.80,0:00:08.90,Default,,760,520.0,371.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:08.90,0:00:09.00,Default,,760,520.0,361.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:09.00,0:00:09.02,Default,,760,520.0,361.0,,to watch them. It's not as a reminder to say that some,
+Dialogue: 0,0:00:09.06,0:00:09.10,Default,,760,520.0,361.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.10,0:00:09.20,Default,,1090,5.0,581.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.20,0:00:09.30,Default,,1090,5.0,581.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.30,0:00:09.40,Default,,690,405.0,171.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.40,0:00:09.50,Default,,510,585.0,171.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.50,0:00:09.60,Default,,690,405.0,171.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.60,0:00:09.70,Default,,1090,5.0,581.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.70,0:00:09.80,Default,,550,545.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.80,0:00:09.90,Default,,650,445.0,181.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:09.90,0:00:10.00,Default,,1090,5.0,571.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.00,0:00:10.10,Default,,1090,5.0,571.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.10,0:00:10.20,Default,,520,575.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.20,0:00:10.30,Default,,530,565.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.30,0:00:10.40,Default,,1090,5.0,581.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.40,0:00:10.50,Default,,490,605.0,291.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.50,0:00:10.60,Default,,540,555.0,311.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.60,0:00:10.70,Default,,540,555.0,301.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.70,0:00:10.80,Default,,540,555.0,311.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.80,0:00:10.90,Default,,530,565.0,311.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:10.90,0:00:11.00,Default,,540,555.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.00,0:00:11.10,Default,,550,545.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.10,0:00:11.20,Default,,550,545.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.20,0:00:11.30,Default,,550,545.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.30,0:00:11.40,Default,,1090,5.0,571.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.40,0:00:11.50,Default,,1090,5.0,571.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.50,0:00:11.60,Default,,1090,5.0,571.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.60,0:00:11.70,Default,,1090,5.0,881.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.70,0:00:11.80,Default,,1090,5.0,571.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.80,0:00:11.90,Default,,1040,55.0,571.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:11.90,0:00:12.00,Default,,550,545.0,291.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.00,0:00:12.10,Default,,550,545.0,171.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.10,0:00:12.20,Default,,550,545.0,171.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.20,0:00:12.30,Default,,530,565.0,171.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.30,0:00:12.40,Default,,550,545.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.40,0:00:12.50,Default,,610,485.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.50,0:00:12.60,Default,,550,545.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.60,0:00:12.70,Default,,540,555.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.70,0:00:12.80,Default,,550,545.0,291.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:12.80,0:00:12.81,Default,,550,545.0,281.0,,the viruses have a massive impact on people's daily lives.
+Dialogue: 0,0:00:13.00,0:00:13.10,Default,,550,545.0,281.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.10,0:00:13.20,Default,,710,675.0,381.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.20,0:00:13.30,Default,,700,685.0,381.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.30,0:00:13.40,Default,,690,695.0,381.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.40,0:00:13.50,Default,,690,695.0,381.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.50,0:00:13.60,Default,,690,695.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.60,0:00:13.70,Default,,690,695.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.70,0:00:13.80,Default,,690,695.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.80,0:00:13.90,Default,,690,695.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:13.90,0:00:14.00,Default,,690,695.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.00,0:00:14.10,Default,,690,695.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.10,0:00:14.20,Default,,690,695.0,381.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.20,0:00:14.30,Default,,700,685.0,381.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.30,0:00:14.40,Default,,700,685.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.40,0:00:14.50,Default,,700,685.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.50,0:00:14.60,Default,,710,675.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.60,0:00:14.70,Default,,710,675.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.70,0:00:14.80,Default,,720,665.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.80,0:00:14.90,Default,,720,665.0,371.0,,And their routines with is also the massive
+Dialogue: 0,0:00:14.90,0:00:15.00,Default,,730,655.0,381.0,,And their routines with is also the massive
+Dialogue: 0,0:00:15.00,0:00:15.00,Default,,740,645.0,381.0,,And their routines with is also the massive
+Dialogue: 0,0:00:15.20,0:00:15.30,Default,,740,645.0,381.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:15.30,0:00:15.40,Default,,740,508.0,331.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:15.40,0:00:15.50,Default,,760,488.0,351.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:15.50,0:00:15.60,Default,,730,518.0,311.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:15.60,0:00:15.70,Default,,1190,58.0,581.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:15.70,0:00:15.80,Default,,730,518.0,311.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:15.80,0:00:15.90,Default,,740,508.0,341.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:15.90,0:00:16.00,Default,,730,518.0,331.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.00,0:00:16.10,Default,,720,528.0,321.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.10,0:00:16.20,Default,,710,538.0,331.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.20,0:00:16.30,Default,,700,548.0,321.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.30,0:00:16.40,Default,,690,558.0,321.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.40,0:00:16.50,Default,,690,558.0,331.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.50,0:00:16.60,Default,,680,568.0,321.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.60,0:00:16.70,Default,,1110,138.0,571.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.70,0:00:16.80,Default,,1120,128.0,581.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.80,0:00:16.90,Default,,680,568.0,321.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:16.90,0:00:17.00,Default,,690,558.0,331.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.00,0:00:17.10,Default,,690,558.0,331.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.10,0:00:17.20,Default,,700,548.0,341.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.20,0:00:17.30,Default,,1150,98.0,571.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.30,0:00:17.40,Default,,1160,88.0,571.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.40,0:00:17.50,Default,,680,568.0,271.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.50,0:00:17.60,Default,,720,528.0,331.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.60,0:00:17.70,Default,,730,518.0,341.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.70,0:00:17.80,Default,,740,508.0,341.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.80,0:00:17.90,Default,,740,508.0,331.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:17.90,0:00:18.00,Default,,750,498.0,341.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:18.00,0:00:18.01,Default,,1220,28.0,661.0,,economic impacts. Because room at this time of year
+Dialogue: 0,0:00:18.17,0:00:18.20,Default,,1220,28.0,661.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:18.20,0:00:18.30,Default,,760,518.0,381.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:18.30,0:00:18.40,Default,,760,518.0,361.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:18.40,0:00:18.50,Default,,760,518.0,361.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:18.50,0:00:18.60,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:18.60,0:00:18.70,Default,,770,508.0,361.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:18.70,0:00:18.80,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:18.80,0:00:18.90,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:18.90,0:00:19.00,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.00,0:00:19.10,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.10,0:00:19.20,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.20,0:00:19.30,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.30,0:00:19.40,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.40,0:00:19.50,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.50,0:00:19.60,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.60,0:00:19.70,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.70,0:00:19.80,Default,,770,508.0,361.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.80,0:00:19.90,Default,,770,508.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:19.90,0:00:20.00,Default,,740,538.0,321.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.00,0:00:20.10,Default,,760,518.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.10,0:00:20.20,Default,,740,538.0,351.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.20,0:00:20.30,Default,,750,528.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.30,0:00:20.40,Default,,740,538.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.40,0:00:20.50,Default,,740,538.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.50,0:00:20.60,Default,,730,548.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.60,0:00:20.70,Default,,700,578.0,341.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.70,0:00:20.80,Default,,720,558.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.80,0:00:20.90,Default,,720,558.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:20.90,0:00:21.00,Default,,710,568.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.00,0:00:21.10,Default,,710,568.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.10,0:00:21.20,Default,,700,578.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.20,0:00:21.30,Default,,690,588.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.30,0:00:21.40,Default,,690,588.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.40,0:00:21.50,Default,,690,588.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.50,0:00:21.60,Default,,670,608.0,351.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.60,0:00:21.70,Default,,690,588.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.70,0:00:21.80,Default,,690,588.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.80,0:00:21.90,Default,,690,588.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:21.90,0:00:22.00,Default,,670,608.0,351.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.00,0:00:22.10,Default,,680,598.0,361.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.10,0:00:22.20,Default,,690,588.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.20,0:00:22.30,Default,,690,588.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.30,0:00:22.40,Default,,690,588.0,361.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.40,0:00:22.50,Default,,710,568.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.50,0:00:22.60,Default,,710,568.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.60,0:00:22.70,Default,,720,558.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.70,0:00:22.80,Default,,700,578.0,341.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.80,0:00:22.90,Default,,720,558.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:22.90,0:00:23.00,Default,,730,548.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:23.00,0:00:23.01,Default,,730,548.0,371.0,,would be filled with tourists traveling that Easter break.
+Dialogue: 0,0:00:23.84,0:00:23.90,Default,,730,548.0,371.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:23.90,0:00:24.00,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.00,0:00:24.10,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.10,0:00:24.20,Default,,1160,4.0,881.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.20,0:00:24.30,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.30,0:00:24.40,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.40,0:00:24.50,Default,,1150,14.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.50,0:00:24.60,Default,,1150,14.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.60,0:00:24.70,Default,,1150,14.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.70,0:00:24.80,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.80,0:00:24.90,Default,,1160,4.0,571.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:24.90,0:00:25.00,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.00,0:00:25.10,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.10,0:00:25.20,Default,,1160,4.0,571.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.20,0:00:25.30,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.30,0:00:25.40,Default,,1160,4.0,571.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.40,0:00:25.50,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.50,0:00:25.60,Default,,1160,4.0,571.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.60,0:00:25.70,Default,,1160,4.0,571.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.70,0:00:25.80,Default,,1160,4.0,571.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.80,0:00:25.90,Default,,1150,14.0,771.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:25.90,0:00:26.00,Default,,1150,14.0,781.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:26.00,0:00:26.10,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:26.10,0:00:26.20,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:26.20,0:00:26.30,Default,,1160,4.0,741.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:26.30,0:00:26.32,Default,,1160,4.0,581.0,,But of course, the hotels, shops and restaurants are shot.
+Dialogue: 0,0:00:26.52,0:00:26.60,Default,,1160,4.0,581.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:26.60,0:00:26.70,Default,,710,552.0,341.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:26.70,0:00:26.80,Default,,710,552.0,341.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:26.80,0:00:26.90,Default,,710,552.0,341.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:26.90,0:00:27.00,Default,,1170,92.0,581.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.00,0:00:27.10,Default,,710,552.0,341.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.10,0:00:27.20,Default,,710,552.0,341.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.20,0:00:27.30,Default,,1170,92.0,571.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.30,0:00:27.40,Default,,1180,82.0,571.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.40,0:00:27.50,Default,,700,562.0,311.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.50,0:00:27.60,Default,,700,562.0,311.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.60,0:00:27.70,Default,,1180,82.0,571.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.70,0:00:27.80,Default,,710,552.0,311.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.80,0:00:27.90,Default,,730,532.0,341.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:27.90,0:00:28.00,Default,,730,532.0,351.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:28.00,0:00:28.10,Default,,730,532.0,351.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:28.10,0:00:28.20,Default,,730,532.0,341.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:28.20,0:00:28.30,Default,,730,532.0,331.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:28.30,0:00:28.40,Default,,730,532.0,331.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:28.40,0:00:28.50,Default,,730,532.0,321.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:28.50,0:00:28.60,Default,,730,532.0,321.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:28.60,0:00:28.60,Default,,750,512.0,341.0,,American tourists are being told to stay away.
+Dialogue: 0,0:00:28.60,0:00:28.70,Default,,750,512.0,341.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:28.70,0:00:28.80,Default,,730,541.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:28.80,0:00:28.90,Default,,740,531.0,331.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:28.90,0:00:29.00,Default,,740,531.0,331.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.00,0:00:29.10,Default,,750,521.0,341.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.10,0:00:29.20,Default,,750,521.0,341.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.20,0:00:29.30,Default,,740,531.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.30,0:00:29.40,Default,,740,531.0,331.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.40,0:00:29.50,Default,,740,531.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.50,0:00:29.60,Default,,740,531.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.60,0:00:29.70,Default,,730,541.0,311.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.70,0:00:29.80,Default,,1190,81.0,571.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.80,0:00:29.90,Default,,1180,91.0,571.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:29.90,0:00:30.00,Default,,720,551.0,311.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.00,0:00:30.10,Default,,720,551.0,301.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.10,0:00:30.20,Default,,730,541.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.20,0:00:30.30,Default,,1180,91.0,571.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.30,0:00:30.40,Default,,740,531.0,341.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.40,0:00:30.50,Default,,1170,101.0,571.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.50,0:00:30.60,Default,,730,541.0,331.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.60,0:00:30.70,Default,,730,541.0,341.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.70,0:00:30.80,Default,,730,541.0,341.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.80,0:00:30.90,Default,,720,551.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:30.90,0:00:31.00,Default,,740,531.0,341.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.00,0:00:31.10,Default,,720,551.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.10,0:00:31.20,Default,,710,561.0,301.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.20,0:00:31.30,Default,,720,551.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.30,0:00:31.40,Default,,720,551.0,321.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.40,0:00:31.50,Default,,730,541.0,331.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.50,0:00:31.60,Default,,730,541.0,331.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.60,0:00:31.70,Default,,730,541.0,331.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.70,0:00:31.80,Default,,740,531.0,341.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.80,0:00:31.88,Default,,730,541.0,331.0,,The city's, you know, pretty much empty objects in long
+Dialogue: 0,0:00:31.96,0:00:32.00,Default,,730,541.0,331.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.00,0:00:32.10,Default,,740,535.0,361.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.10,0:00:32.20,Default,,740,535.0,361.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.20,0:00:32.30,Default,,740,535.0,361.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.30,0:00:32.40,Default,,790,485.0,341.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.40,0:00:32.50,Default,,1200,75.0,571.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.50,0:00:32.60,Default,,1200,75.0,571.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.60,0:00:32.70,Default,,750,525.0,361.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.70,0:00:32.80,Default,,1190,85.0,571.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.80,0:00:32.90,Default,,740,535.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:32.90,0:00:33.00,Default,,730,545.0,341.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.00,0:00:33.10,Default,,1190,85.0,571.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.10,0:00:33.20,Default,,740,535.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.20,0:00:33.30,Default,,740,535.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.30,0:00:33.40,Default,,740,535.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.40,0:00:33.50,Default,,720,555.0,341.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.50,0:00:33.60,Default,,1200,75.0,581.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.60,0:00:33.70,Default,,740,535.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.70,0:00:33.80,Default,,730,545.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.80,0:00:33.90,Default,,710,565.0,331.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:33.90,0:00:34.00,Default,,720,555.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.00,0:00:34.10,Default,,720,555.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.10,0:00:34.20,Default,,720,555.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.20,0:00:34.30,Default,,710,565.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.30,0:00:34.40,Default,,710,565.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.40,0:00:34.50,Default,,710,565.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.50,0:00:34.60,Default,,710,565.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.60,0:00:34.70,Default,,710,565.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.70,0:00:34.80,Default,,710,565.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:34.80,0:00:34.85,Default,,710,565.0,351.0,,looked down and not to set to continue further.
+Dialogue: 0,0:00:35.58,0:00:35.60,Default,,710,565.0,351.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:35.60,0:00:35.70,Default,,710,634.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:35.70,0:00:35.80,Default,,710,634.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:35.80,0:00:35.90,Default,,710,634.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:35.90,0:00:36.00,Default,,710,634.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.00,0:00:36.10,Default,,710,634.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.10,0:00:36.20,Default,,710,634.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.20,0:00:36.30,Default,,700,644.0,381.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.30,0:00:36.40,Default,,710,634.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.40,0:00:36.50,Default,,720,624.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.50,0:00:36.60,Default,,720,624.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.60,0:00:36.70,Default,,720,624.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.70,0:00:36.80,Default,,720,624.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.80,0:00:36.90,Default,,720,624.0,391.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:36.90,0:00:37.00,Default,,670,674.0,321.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:37.00,0:00:37.06,Default,,670,674.0,321.0,,Okay, Michelle. Thanks.
+Dialogue: 0,0:00:39.07,0:00:39.10,Default,,670,674.0,321.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.10,0:00:39.20,Default,,680,430.0,321.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.20,0:00:39.30,Default,,680,430.0,321.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.30,0:00:39.40,Default,,630,480.0,731.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.40,0:00:39.50,Default,,630,480.0,731.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.50,0:00:39.60,Default,,630,480.0,731.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.60,0:00:39.70,Default,,680,430.0,321.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.70,0:00:39.80,Default,,680,430.0,321.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.80,0:00:39.90,Default,,680,430.0,321.0,,It was his gun is today coming out
+Dialogue: 0,0:00:39.90,0:00:40.00,Default,,680,430.0,321.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.00,0:00:40.10,Default,,680,430.0,321.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.10,0:00:40.20,Default,,560,550.0,991.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.20,0:00:40.30,Default,,540,570.0,991.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.30,0:00:40.40,Default,,550,560.0,991.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.40,0:00:40.50,Default,,670,440.0,1011.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.50,0:00:40.60,Default,,540,570.0,991.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.60,0:00:40.70,Default,,540,570.0,991.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.70,0:00:40.80,Default,,540,570.0,991.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.80,0:00:40.90,Default,,540,570.0,991.0,,It was his gun is today coming out
+Dialogue: 0,0:00:40.90,0:00:41.00,Default,,540,570.0,771.0,,It was his gun is today coming out
+Dialogue: 0,0:00:41.00,0:00:41.04,Default,,560,550.0,761.0,,It was his gun is today coming out
+Dialogue: 0,0:00:42.23,0:00:42.30,Default,,560,550.0,761.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:42.30,0:00:42.40,Default,,810,549.0,691.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:42.40,0:00:42.50,Default,,810,549.0,681.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:42.50,0:00:42.60,Default,,810,549.0,681.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:42.60,0:00:42.70,Default,,810,549.0,681.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:42.70,0:00:42.80,Default,,810,549.0,691.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:42.80,0:00:42.90,Default,,810,549.0,691.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:42.90,0:00:43.00,Default,,810,549.0,691.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.00,0:00:43.10,Default,,810,549.0,701.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.10,0:00:43.20,Default,,810,549.0,701.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.20,0:00:43.30,Default,,810,549.0,701.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.30,0:00:43.40,Default,,810,549.0,701.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.40,0:00:43.50,Default,,810,549.0,701.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.50,0:00:43.60,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.60,0:00:43.70,Default,,810,549.0,721.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.70,0:00:43.80,Default,,810,549.0,701.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.80,0:00:43.90,Default,,810,549.0,701.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:43.90,0:00:44.00,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.00,0:00:44.10,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.10,0:00:44.20,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.20,0:00:44.30,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.30,0:00:44.40,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.40,0:00:44.50,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.50,0:00:44.60,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.60,0:00:44.70,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.70,0:00:44.80,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.80,0:00:44.90,Default,,820,539.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:44.90,0:00:45.00,Default,,820,539.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:45.00,0:00:45.10,Default,,820,539.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:45.10,0:00:45.20,Default,,810,549.0,731.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:45.20,0:00:45.30,Default,,820,539.0,701.0,,the some heroes facing customers every day.
+Dialogue: 0,0:00:45.30,0:00:45.34,Default,,820,539.0,731.0,,the some heroes facing customers every day.

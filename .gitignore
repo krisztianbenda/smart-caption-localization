@@ -1,5 +1,7 @@
 # result files
 src/video_manager/frames/
+src/video_manager/frames_dynamic/
+docs/dipterv2-submission/~$esis-work.docx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

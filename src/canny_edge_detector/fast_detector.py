@@ -16,7 +16,7 @@ args = vars(ap.parse_args())
 processing_image = args["image"]
 img = cv2.imread(processing_image)
 
-edges = cv2.Canny(img, 100, 200, 3, L2gradient=True)
+edges = cv2.Canny(img, 100, 10, 3, L2gradient=True)
 # plt.imsave(args["output"], edges, cmap='gray', format='tiff')
 enabling_map_image = Image.fromarray(edges)
 enabling_map_image.save(args["output"])
