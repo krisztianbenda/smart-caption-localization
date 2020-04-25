@@ -21,7 +21,7 @@ ap.add_argument("-o", "--output_ass", type=str,
 ap.add_argument("-d", "--detectors", type=str,
 	help="used detectors. c: canny edge, t:text, l:logo, o:object")
 ap.add_argument("-a", "--algorithm", type=str, default="fix",
-  help="the used algorithms. Options are fix and dynamic")
+  help="the used algorithms. Options are fix, dynamic and stable")
 ap.add_argument("-r", "--resolution", type=float, default="3",
   help="the used resolution for the algorithm in seconds")
 args = vars(ap.parse_args()) 
@@ -179,7 +179,7 @@ if algorithm == 'dynamic':
         )
       print("This event will be placed: {}".format(event.__dict__))
       subtitle.insert(original_block_number+1, event)
-      subtitle[original_block_number].end = time * 1000 # end is in millisecond
+      subtitle[original_block_number].end = int(time * 1000) # end is in millisecond
       time = time + time_resolution
     elif new_block_start(subtitle, video_duration, previous_text):
       print("\nNew Transcript block start without time trigger")
@@ -213,6 +213,54 @@ if algorithm == 'dynamic':
     count += 1
 
 elif algorithm == "fix":
+  time_resolution = float(args['resolution'])
+  time = 0
+  frame_dir = os.path.join(file_dir, "frames_{}".format(algorithm))
+  create_dir(frame_dir)
+  transcript_block_image_handler = ImageHandler()
+  fps = vidcap.get(cv2.CAP_PROP_FPS)
+  max_textbox_width = 0
+  max_textbox_height = 0
+  previous_text = ''
+  while success:
+    frame_count = int(vidcap.get(cv2.CAP_PROP_FRAME_COUNT))
+    video_duration = count / fps
+
+    if srt_handler.get_by_second(time) is '':
+      time = time + time_resolution
+    elif video_duration >= time:
+      print('\n====== Detecting the %d frame at %f second in the video ======' % (count, video_duration))
+      frame_file = os.path.join(frame_dir, "frame_%d.jpg" % count) 
+      print("Frame file will be created at: %s." % frame_file)
+      cv2.imwrite(frame_file, image)     # save frame as JPEG file     
+      transcript_block_image_handler.add_image(frame_file)
+
+      text = srt_handler.get_by_second(video_duration)
+      if text != previous_text:
+        print("The previous text was: %s" % previous_text)
+        previous_text = text
+        textbox_width, textbox_height = get_textbox_size(text, used_font, frame_width)
+        if textbox_width > max_textbox_width:
+          max_textbox_width = textbox_width
+        if textbox_height > max_textbox_height:
+          max_textbox_height = textbox_height
+
+      time = time + time_resolution
+
+    success,image = vidcap.read()
+    count += 1
+  
+  # default place
+  x = int(frame_width/3)
+  y = int(8*frame_height/10)
+  x, y = get_coordinates(transcript_block_image_handler, os.path.join(frame_dir, "detection_results"), args['detectors'], textbox_width, textbox_height)
+  print("The best place has been found at x:%d y:%d position.\n" % (x, y))
+  for block in subtitle:
+    block.marginl = x
+    block.marginr = frame_width - max_textbox_width - x
+    block.marginv = frame_height - max_textbox_height - y
+
+elif algorithm == "stable":
   transcript_block_start = 0
   transcript_block_image_handler = ImageHandler()
   is_transcript_block_start_processed = False
