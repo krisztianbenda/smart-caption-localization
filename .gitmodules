@@ -1,0 +1,3 @@
+[submodule "src/face_detector/yoloface"]
+	path = src/face_detector/yoloface
+	url = https://github.com/krisztianbenda/yoloface.git
