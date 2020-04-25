@@ -9,6 +9,7 @@ from pysubs2 import SSAEvent, SSAFile
 import argparse
 import math
 from PIL import ImageFont
+from position_collector import PositionCollector
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-is", "--input_srt", type=str,
@@ -78,7 +79,20 @@ def get_block_number(subtitle: SSAFile, second):
   for i in range(0, len(subtitle.events)):
     if subtitle.events[i].start <= second * 1000 and second * 1000 < subtitle.events[i].end:
       return i
-  return -1
+  return None
+
+def new_block_start(subtitle, video_duration, previous_text):
+  return (get_block_number(subtitle, video_duration) != None 
+    and previous_text != subtitle[get_block_number(subtitle, video_duration)].text)
+
+def persistent_frame(frame_dir, frame_num):
+  frame_name = "frame_%d" % frame_num
+  frame_dir_name = os.path.join(frame_dir, frame_name)
+  create_dir(frame_dir_name)
+  frame_file = os.path.join(frame_dir_name, frame_name + '.jpg')
+  cv2.imwrite(frame_file, image)
+  return frame_dir_name, frame_file
+  
 
 srt_handler = SRTHandler(args['input_srt'])
 subtitle = pysubs2.load(args['input_srt'])
@@ -91,11 +105,11 @@ print("The input audio has width:%d and height:%d" % (frame_width, frame_height)
 subtitle.info['PlayResX'] = frame_width
 subtitle.info['PlayResY'] = frame_height
 ''' 
-Default font size calculated from the (1920x1080) diagonal and 55 fontsize's rate
-  sqrt(1920^2 + 1080^2) / 55 = input_diagonal / default_size
+Default font size calculated from the (1920x1080) diagonal and 54 fontsize's rate
+  sqrt(1920^2 + 1080^2) / 54 = input_diagonal / default_size
 '''
 
-fontsize = int(math.sqrt(frame_width ** 2 + frame_height ** 2) / (math.sqrt(1920 ** 2 + 1080 ** 2) / 55))
+fontsize = int(math.sqrt(frame_width ** 2 + frame_height ** 2) / (math.sqrt(1920 ** 2 + 1080 ** 2) / 54))
 print("Default fontsize will be: {}".format(fontsize))
 
 file_dir = os.path.dirname(os.path.abspath(__file__))
@@ -108,6 +122,7 @@ success, image = vidcap.read()
 count = 0
 
 algorithm = str(args['algorithm'])
+position_collector = PositionCollector(max_distance=2)
 print("-------ALGORITHM: {}-------".format(algorithm.upper()))
 if algorithm == 'dynamic':
   time_resolution = float(args['resolution'])
@@ -120,6 +135,8 @@ if algorithm == 'dynamic':
   y = int(8*frame_height/10)
   textbox_width = int(frame_width/3)
   textbox_height = int(frame_height/10)
+
+  previous_text = ""
   while success:
     fps = vidcap.get(cv2.CAP_PROP_FPS)
     frame_count = int(vidcap.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -129,23 +146,60 @@ if algorithm == 'dynamic':
       # print("Subtitle does not found at {} time".format(time))
       time = time + time_resolution
     elif video_duration >= time:
-      print("\nProcessing start at %dth frame, video frame duration is: %d the time is: %d" % (count, video_duration, time))
+
+      print("\nProcessing start at %dth frame, video frame duration is: %f the time is: %f" % (count, video_duration, time))
+      print("fps: %d" % fps)
       frame_name = "frame_%d" % count
-      print(frame_name + " will be processed")
-      frame_dir_name = os.path.join(frame_dir, frame_name)
-      create_dir(frame_dir_name)
-      frame_file = os.path.join(frame_dir_name, frame_name + '.jpg')
-      cv2.imwrite(frame_file, image)
+      print(frame_name + " will be processed.")
+      frame_dir_name, frame_file = persistent_frame(frame_dir, count)
 
       text = srt_handler.get_by_second(time)
+      if text != previous_text:
+        print("The previous text was: %s" % previous_text)
+        position_collector.new_block()
+        previous_text = text
+
       textbox_width, textbox_height = get_textbox_size(text, used_font, frame_width)
       x, y = get_coordinates(ImageHandler().add_image(frame_file), 
         os.path.join(frame_dir_name, "detection_results"), 
         args['detectors'], textbox_width, textbox_height)
       print("The best place has been found at x:%d y:%d position." % (x, y))
+      print("The previous place was x:%d y:%d" % position_collector.get_current())
+      position_collector.add((x,y))
+      corrected_x, corrected_y = position_collector.correct_position()
+      print("The positions were corrected to x:%d -> %d y:%d -> %d position." % (x, corrected_x, y, corrected_y))
 
       original_block_number = get_block_number(subtitle, time)
-      event = SSAEvent(start=time * 1000, #start is in millisecond 
+      event = SSAEvent(start=int(time * 1000), #start is in millisecond 
+        end=subtitle[original_block_number].end, 
+        text=subtitle[original_block_number].text,
+        marginl= corrected_x,
+        marginr= frame_width - textbox_width - corrected_x,
+        marginv= frame_height - textbox_height - corrected_y
+        )
+      print("This event will be placed: {}".format(event.__dict__))
+      subtitle.insert(original_block_number+1, event)
+      subtitle[original_block_number].end = time * 1000 # end is in millisecond
+      time = time + time_resolution
+    elif new_block_start(subtitle, video_duration, previous_text):
+      print("\nNew Transcript block start without time trigger")
+      print("Processing start at %dth frame, video frame duration is: %f the time is: %f" % (count, video_duration, time))
+      frame_dir_name, frame_file = persistent_frame(frame_dir, count)
+      text = srt_handler.get_by_second(video_duration)
+      print("The previous text was: %s" % previous_text)
+      position_collector.new_block()
+      previous_text = text
+      
+      textbox_width, textbox_height = get_textbox_size(text, used_font, frame_width)
+      x, y = get_coordinates(ImageHandler().add_image(frame_file), 
+        os.path.join(frame_dir_name, "detection_results"), 
+        args['detectors'], textbox_width, textbox_height)
+      print("The best place has been found at x:%d y:%d position." % (x, y))
+      print("The previous place was x:%d y:%d" % position_collector.get_current())
+      position_collector.add((x,y))
+
+      original_block_number = get_block_number(subtitle, video_duration)
+      event = SSAEvent(start=int(video_duration * 1000), #start is in millisecond 
         end=subtitle[original_block_number].end, 
         text=subtitle[original_block_number].text,
         marginl= x,
@@ -153,16 +207,7 @@ if algorithm == 'dynamic':
         marginv= frame_height - textbox_height - y
         )
       print("This event will be placed: {}".format(event.__dict__))
-      subtitle.insert(original_block_number+1, event)
-      subtitle[original_block_number].end = time * 1000 # end is in millisecond
-      time = time + time_resolution
-    
-    else:
-      subtitle[get_block_number(subtitle, video_duration)].marginl = x
-      subtitle[get_block_number(subtitle, video_duration)].marginr = frame_width - textbox_width - x
-      subtitle[get_block_number(subtitle, video_duration)].marginv = frame_height - textbox_height - y
-
-
+      subtitle[original_block_number] = event
 
     success,image = vidcap.read()
     count += 1
@@ -247,4 +292,6 @@ elif algorithm == "fix":
     success,image = vidcap.read()
     count += 1
 
-subtitle.save(os.path.join(args['output_ass']))
+subtitle.save("%s_%s_%s_%f.ass" % (os.path.join(args['output_ass'])[:-4], algorithm, args['detectors'], float(args['resolution'])))
+print('Collected positions are: ')
+position_collector.print()

@@ -95,6 +95,19 @@ def run_logo(image_path, output_file):
     p.communicate()
     p.wait()
 
+def run_face(image_path, output_file):
+    original_cwd = os.getcwd()
+    os.chdir('/Users/krisz/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/face_detector/yoloface')
+    face_command = ['python3', '~/repos/python/src/github.ibm.com/krisztian-benda/smart-caption-localization/src/face_detector/yoloface/yoloface.py',
+        '--image', image_path,
+        '--output-image', output_file,
+        # '2>/dev/null'
+    ]
+    p = subprocess.Popen(" ".join(face_command), stdout=subprocess.PIPE, shell=True)
+    p.communicate()
+    p.wait()
+    os.chdir(original_cwd)
+
 # runner returns with the best coordinates based on the detectors
 def get_coordinates(image_handler, output_folder, detectors, subtitle_width, subtitle_height) -> (int, int):
     if os.path.isdir(output_folder):
@@ -125,6 +138,10 @@ def get_coordinates(image_handler, output_folder, detectors, subtitle_width, sub
             logo_output_file = os.path.join(output_folder, 'logo_detected_' + str(image_number) + '.tiff')
             logo_thread = Thread(target=run_logo, args=(image_paths[image_number], logo_output_file))
             logo_thread.start()
+        if 'f' in detectors:    
+            face_output_file = os.path.join(output_folder, 'face_detected_' + str(image_number) + '.tiff')
+            face_thread = Thread(target=run_face, args=(image_paths[image_number], face_output_file))
+            face_thread.start()
 
         if 'c' in detectors:
             canny_thread.join()
@@ -139,15 +156,20 @@ def get_coordinates(image_handler, output_folder, detectors, subtitle_width, sub
         if 'l' in detectors:
             logo_thread.join()
             images.append(np.array(Image.open(logo_output_file)))
+        if 'f' in detectors:
+            face_thread.join()
+            images.append(np.array(Image.open(face_output_file)))
 
     print("The image shape is:{}".format(images[0].shape))
 
     width, height = Image.open(image_paths[0]).size
-    enabling_map = np.zeros((height, width))
+    white_frame = 30
+    enabling_map = np.ones((height, width))
+    enabling_map[white_frame:height-white_frame, white_frame:width-white_frame] = np.zeros((height-white_frame*2, width-white_frame*2))
     for image in images:
         enabling_map = enabling_map + image
 
-    # EZT A NORAMLIZACIOT ERDEMES BELEIRNI A SZAKDOGABA
+    # EZT A NORAMLIZACIOT ERDEMES BELEIRNI A SZAKDOGABA - megvolt
     normalized_enabling_map = (enabling_map / np.linalg.norm(enabling_map))
     enabling_map_image = Image.fromarray(normalized_enabling_map * 255)
     enabling_map_image.save(output_folder + '/enabling_map.tiff')
@@ -161,6 +183,8 @@ def get_coordinates(image_handler, output_folder, detectors, subtitle_width, sub
     min_edge_ratio = 1
     min_x = int(width/2 - swidth/2) # the default place is the usual
     min_y = height - (2 * sheight)
+    best_x = int(width/2)
+    best_y = min_y
     while y > 0:
         while x + swidth < width:
             area = emap[y:y+sheight, x:x+swidth]
@@ -171,10 +195,10 @@ def get_coordinates(image_handler, output_folder, detectors, subtitle_width, sub
                 min_x = x
                 min_y = y
             elif edge_ratio == min_edge_ratio:
-                new_distance = np.linalg.norm(np.array([width/2,height/2]) - 
+                new_distance = np.linalg.norm(np.array([best_x,best_y]) - 
                     np.array([x + swidth/2, y+sheight/2]))
                 min_area_center = np.array([min_x + swidth/2, min_y + sheight/2])
-                old_distance = np.linalg.norm(np.array([width/2, height/2]) - min_area_center)
+                old_distance = np.linalg.norm(np.array([best_x, best_y]) - min_area_center)
                 if new_distance <= old_distance:
                     min_edge_ratio = edge_ratio
                     min_x = x
