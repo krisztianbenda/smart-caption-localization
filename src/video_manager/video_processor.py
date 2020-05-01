@@ -122,7 +122,7 @@ success, image = vidcap.read()
 count = 0
 
 algorithm = str(args['algorithm'])
-position_collector = PositionCollector(max_distance=2)
+position_collector = PositionCollector(max_distance=8)
 print("-------ALGORITHM: {}-------".format(algorithm.upper()))
 if algorithm == 'dynamic':
   time_resolution = float(args['resolution'])
@@ -179,7 +179,9 @@ if algorithm == 'dynamic':
         )
       print("This event will be placed: {}".format(event.__dict__))
       subtitle.insert(original_block_number+1, event)
-      subtitle[original_block_number].end = int(time * 1000) # end is in millisecond
+      # subtitle[original_block_number].end = int(time * 1000) # end is in millisecond
+      subtitle[original_block_number].end = event.start
+      print("The previous was modified to: {}".format(subtitle[original_block_number].__dict__))
       time = time + time_resolution
     elif new_block_start(subtitle, video_duration, previous_text):
       print("\nNew Transcript block start without time trigger")
@@ -206,7 +208,7 @@ if algorithm == 'dynamic':
         marginr= frame_width - textbox_width - x,
         marginv= frame_height - textbox_height - y
         )
-      print("This event will be placed: {}".format(event.__dict__))
+      print("The event will be modified to this: {}".format(event.__dict__))
       subtitle[original_block_number] = event
 
     success,image = vidcap.read()
@@ -341,5 +343,6 @@ elif algorithm == "stable":
     count += 1
 
 subtitle.save("%s_%s_%s_%f.ass" % (os.path.join(args['output_ass'])[:-4], algorithm, args['detectors'], float(args['resolution'])))
-print('Collected positions are: ')
-position_collector.print()
+if algorithm == "dynamic":
+  print('Collected positions are: ')
+  position_collector.print()

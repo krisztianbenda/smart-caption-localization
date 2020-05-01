@@ -164,12 +164,12 @@ def get_coordinates(image_handler, output_folder, detectors, subtitle_width, sub
 
     width, height = Image.open(image_paths[0]).size
     white_frame = 30
-    enabling_map = np.ones((height, width))
-    enabling_map[white_frame:height-white_frame, white_frame:width-white_frame] = np.zeros((height-white_frame*2, width-white_frame*2))
+    enabling_map = np.zeros((height, width))
+    frame_matrix = np.ones((height, width))
+    frame_matrix[white_frame:height-white_frame, white_frame:width-white_frame] = np.zeros((height-white_frame*2, width-white_frame*2))
     for image in images:
-        enabling_map = enabling_map + image
+        enabling_map = enabling_map + image + frame_matrix
 
-    # EZT A NORAMLIZACIOT ERDEMES BELEIRNI A SZAKDOGABA - megvolt
     normalized_enabling_map = (enabling_map / np.linalg.norm(enabling_map))
     enabling_map_image = Image.fromarray(normalized_enabling_map * 255)
     enabling_map_image.save(output_folder + '/enabling_map.tiff')
@@ -211,7 +211,7 @@ def get_coordinates(image_handler, output_folder, detectors, subtitle_width, sub
 
     # print(min_x, min_y)
     save_rectangle(emap, min_x, min_y, swidth, sheight, output_folder)
-    # print("THE RESULT IS: x={} and y={} pixel from the top left corner".format(min_x, min_y))
+    print("THE RESULT IS: x={} and y={} pixel from the top left corner".format(min_x, min_y))
     return (min_x, min_y)
 
 if __name__ == "__main__":
