@@ -1,96 +1,96 @@
 0
-0000:00:01,344 --> 0000:00:03,914
+0000:00:00,544 --> 0000:00:03,114
 Now that several countries in Europe have passed the peak
 
 1
-0000:00:03,914 --> 0000:00:05,454
-of their Coronavirus outbreaks.
+0000:00:03,114 --> 0000:00:05,454
+of their Coronavirus outbreaks. Authorities have started
 
 2
-0000:00:05,904 --> 0000:00:08,224
-Authorities have started to address when they might start
+0000:00:05,460 --> 0000:00:08,224
+to address when they might start easing lockdowns.
 
 3
 0000:00:08,254 --> 0000:00:10,554
-easing lockdowns. In France finance.
+In France, finance minister Bruno le Maire
 
 4
-0000:00:10,554 --> 0000:00:12,774
-Minister Bruno le Maire, said restaurants
+0000:00:10,554 --> 0000:00:14,000
+said restaurants and bars won't open before June.
 
 5
-0000:00:12,774 --> 0000:00:14,574
-and bars won't open before June,
+0000:00:14,000 --> 0000:00:14,774
+But the sector will receive
 
 6
-0000:00:14,694 --> 0000:00:17,864
-but the sector will receive more financial support in May.
+0000:00:14,774 --> 0000:00:17,864
+more financial support in May.
 
 7
-0000:00:17,894 --> 0000:00:21,084
-We plan to open in
+0000:00:19,094 --> 0000:00:21,084
+"We plan to open in the best sanitary
 
 8
 0000:00:21,084 --> 0000:00:24,544
-the best sanitary conditions possible to reassure customers
+conditions possible to reassure customers and employees."
 
 9
 0000:00:24,544 --> 0000:00:28,364
-and employees. A guide to good practice is backed by a legal
+A guide to good practice is backed by a legal framework,
 
 10
 0000:00:28,364 --> 0000:00:30,174
-framework, a review clause
+a review clause and then a final decision
 
 11
 0000:00:30,174 --> 0000:00:32,344
-and that a final decision towards the end of May.
+twenty-eight of May. What all be needed
 
 12
-0000:00:32,874 --> 0000:00:36,124
-What all be needed to have a precise reopening date for cafes,
+0000:00:32,374 --> 0000:00:36,024
+to have a precise reopening date for cafes, restaurants
 
 13
-0000:00:36,124 --> 0000:00:41,044
-restaurants and bars. For Belgian restaurants
+0000:00:36,024 --> 0000:00:37,044
+and bars.
 
 14
-0000:00:41,044 --> 0000:00:43,174
-and bars will stay shut throughout May as well.
+0000:00:39,044 --> 0000:00:41,104
+For Belgian restaurants and bars will stay shut
 
 15
-0000:00:43,204 --> 0000:00:44,584
-But prime minister Sophie Wilmés,
+0000:00:41,104 --> 0000:00:44,084
+throughout May as well. But prime minister Sophie Wilmés,
 
 16
-0000:00:44,584 --> 0000:00:47,304
-as announced on Friday that some shops will be allowed
+0000:00:44,084 --> 0000:00:46,204
+announced on Friday that some shops will be allowed
 
 17
-0000:00:47,304 --> 0000:00:49,254
-to open up again on may eleventh.
+0000:00:46,204 --> 0000:00:48,554
+to open up again on May eleventh.
 
 18
-0000:00:49,724 --> 0000:00:52,344
-with schools to follow opening on May eighteenth.
+0000:00:48,824 --> 0000:00:52,044
+With schools to follow, opening on May eighteenth.
 
 19
-0000:00:54,264 --> 0000:00:57,194
-The Czech Republic has experienced a much lighter outbreaks
+0000:00:53,364 --> 0000:00:56,494
+The Czech Republic has experienced a much lighter outbreak
 
 20
-0000:00:57,194 --> 0000:00:58,764
-compared to many of its neighbors
+0000:00:56,494 --> 0000:00:58,464
+compared to many of its neighbours
 
 21
-0000:00:59,214 --> 0000:01:01,794
-and for Monday checks will be allowed to leave home whenever
+0000:00:58,614 --> 0000:01:00,494
+and from Monday Czechs will be allowed to leave home
 
 22
-0000:01:01,794 --> 0000:01:04,934
-they want and gather in groups of ten.
+0000:01:00,494 --> 0000:01:03,534
+whenever they want and gather in groups of ten.
 
 23
-0000:01:04,934 --> 0000:01:07,564
-EU Citizens will even be allowed to visit for business.
+0000:01:03,834 --> 0000:01:07,564
+EU citizens will even be allowed to visit for business.
 
