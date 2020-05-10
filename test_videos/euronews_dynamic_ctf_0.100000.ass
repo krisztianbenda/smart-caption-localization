@@ -15,366 +15,366 @@ Style: Default,Arial,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.55,0:00:00.60,Default,,590,637.0,281.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:00.60,0:00:00.70,Default,,592,635.0,281.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:00.70,0:00:00.79,Default,,594,633.0,281.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:00.79,0:00:00.89,Default,,596,631.0,281.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:00.89,0:00:00.99,Default,,598,629.0,281.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:00.99,0:00:01.09,Default,,600,627.0,281.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.09,0:00:01.20,Default,,602,625.0,281.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.20,0:00:01.30,Default,,602,625.0,283.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.30,0:00:01.40,Default,,602,625.0,285.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.40,0:00:01.50,Default,,602,625.0,287.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.50,0:00:01.60,Default,,602,625.0,289.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.60,0:00:01.70,Default,,602,625.0,291.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.70,0:00:01.80,Default,,602,625.0,293.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.80,0:00:01.90,Default,,602,625.0,295.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:01.90,0:00:02.00,Default,,602,625.0,297.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.00,0:00:02.10,Default,,602,625.0,299.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.10,0:00:02.20,Default,,602,625.0,301.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.20,0:00:02.30,Default,,600,627.0,302.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.30,0:00:02.40,Default,,600,627.0,304.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.40,0:00:02.50,Default,,598,629.0,305.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.50,0:00:02.60,Default,,599,628.0,305.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.60,0:00:02.70,Default,,600,627.0,306.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.70,0:00:02.80,Default,,598,629.0,307.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.80,0:00:02.90,Default,,596,631.0,308.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:02.90,0:00:03.00,Default,,594,633.0,309.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:03.00,0:00:03.10,Default,,595,632.0,310.0,,Now that several countries in Europe have passed the peak
-Dialogue: 0,0:00:03.10,0:00:03.11,Default,,596,631.0,311.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:00.60,0:00:00.70,Default,,598,629.0,281.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:00.70,0:00:00.79,Default,,606,621.0,281.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:00.79,0:00:00.89,Default,,610,617.0,281.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:00.89,0:00:00.99,Default,,610,617.0,281.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:00.99,0:00:01.09,Default,,610,617.0,281.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.09,0:00:01.20,Default,,610,617.0,281.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.20,0:00:01.30,Default,,610,617.0,289.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.30,0:00:01.40,Default,,610,617.0,297.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.40,0:00:01.50,Default,,610,617.0,305.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.50,0:00:01.60,Default,,610,617.0,313.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.60,0:00:01.70,Default,,610,617.0,321.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.70,0:00:01.80,Default,,614,613.0,328.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.80,0:00:01.90,Default,,611,616.0,336.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:01.90,0:00:02.00,Default,,610,617.0,344.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.00,0:00:02.10,Default,,610,617.0,341.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.10,0:00:02.20,Default,,610,617.0,349.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.20,0:00:02.30,Default,,602,625.0,349.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.30,0:00:02.40,Default,,605,622.0,357.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.40,0:00:02.50,Default,,597,630.0,356.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.50,0:00:02.60,Default,,604,623.0,355.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.60,0:00:02.70,Default,,611,616.0,355.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.70,0:00:02.80,Default,,603,624.0,356.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.80,0:00:02.90,Default,,595,632.0,357.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:02.90,0:00:03.00,Default,,587,640.0,358.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:03.00,0:00:03.10,Default,,594,633.0,358.0,,Now that several countries in Europe have passed the peak
+Dialogue: 0,0:00:03.10,0:00:03.11,Default,,601,626.0,358.0,,Now that several countries in Europe have passed the peak
 Dialogue: 0,0:00:03.11,0:00:03.20,Default,,1050,132.0,331.0,,of their Coronavirus outbreaks. Authorities have started
 Dialogue: 0,0:00:03.20,0:00:03.30,Default,,1050,132.0,331.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:03.30,0:00:03.40,Default,,1050,132.0,329.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:03.40,0:00:03.50,Default,,1050,132.0,327.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:03.50,0:00:03.60,Default,,1050,132.0,325.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:03.60,0:00:03.70,Default,,1050,132.0,323.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:03.70,0:00:03.80,Default,,1050,132.0,322.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:03.80,0:00:03.90,Default,,1050,132.0,321.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:03.90,0:00:04.00,Default,,1050,132.0,320.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.00,0:00:04.10,Default,,1050,132.0,319.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.10,0:00:04.20,Default,,1050,132.0,321.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.20,0:00:04.30,Default,,1050,132.0,321.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:03.30,0:00:03.40,Default,,1050,132.0,323.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:03.40,0:00:03.50,Default,,1050,132.0,321.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:03.50,0:00:03.60,Default,,1050,132.0,313.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:03.60,0:00:03.70,Default,,1050,132.0,305.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:03.70,0:00:03.80,Default,,1057,125.0,303.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:03.80,0:00:03.90,Default,,1058,124.0,296.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:03.90,0:00:04.00,Default,,1060,122.0,301.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.00,0:00:04.10,Default,,1060,122.0,301.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.10,0:00:04.20,Default,,1056,126.0,309.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.20,0:00:04.30,Default,,1052,130.0,317.0,,of their Coronavirus outbreaks. Authorities have started
 Dialogue: 0,0:00:04.30,0:00:04.40,Default,,1050,132.0,321.0,,of their Coronavirus outbreaks. Authorities have started
 Dialogue: 0,0:00:04.40,0:00:04.50,Default,,1050,132.0,321.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.50,0:00:04.60,Default,,1048,134.0,321.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.60,0:00:04.69,Default,,1046,136.0,320.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.69,0:00:04.79,Default,,1044,138.0,319.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.79,0:00:04.89,Default,,1042,140.0,320.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.89,0:00:04.99,Default,,1041,141.0,319.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:04.99,0:00:05.09,Default,,1040,142.0,321.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:05.09,0:00:05.19,Default,,1041,141.0,320.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:05.19,0:00:05.29,Default,,1041,141.0,322.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:05.29,0:00:05.39,Default,,1042,140.0,322.0,,of their Coronavirus outbreaks. Authorities have started
-Dialogue: 0,0:00:05.39,0:00:05.45,Default,,1043,139.0,322.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.50,0:00:04.60,Default,,1042,140.0,321.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.60,0:00:04.69,Default,,1040,142.0,314.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.69,0:00:04.79,Default,,1040,142.0,311.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.79,0:00:04.89,Default,,1040,142.0,319.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.89,0:00:04.99,Default,,1040,142.0,311.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:04.99,0:00:05.09,Default,,1040,142.0,319.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:05.09,0:00:05.19,Default,,1046,136.0,315.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:05.19,0:00:05.29,Default,,1047,135.0,323.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:05.29,0:00:05.39,Default,,1054,128.0,320.0,,of their Coronavirus outbreaks. Authorities have started
+Dialogue: 0,0:00:05.39,0:00:05.45,Default,,1061,121.0,321.0,,of their Coronavirus outbreaks. Authorities have started
 Dialogue: 0,0:00:05.46,0:00:05.49,Default,,1080,180.0,311.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:05.49,0:00:05.59,Default,,1080,180.0,310.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:05.59,0:00:05.69,Default,,1080,180.0,309.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:05.69,0:00:05.79,Default,,1081,179.0,310.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:05.79,0:00:05.89,Default,,1082,178.0,311.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:05.89,0:00:05.99,Default,,1083,177.0,313.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:05.99,0:00:06.09,Default,,1084,176.0,314.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.09,0:00:06.19,Default,,1085,175.0,315.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.19,0:00:06.29,Default,,1086,174.0,316.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.29,0:00:06.39,Default,,1084,176.0,317.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.39,0:00:06.49,Default,,1082,178.0,318.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.49,0:00:06.59,Default,,1080,180.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.59,0:00:06.69,Default,,1078,182.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.69,0:00:06.79,Default,,1076,184.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.79,0:00:06.89,Default,,1074,186.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.89,0:00:06.99,Default,,1072,188.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:06.99,0:00:07.09,Default,,1070,190.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.09,0:00:07.19,Default,,1068,192.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.19,0:00:07.29,Default,,1066,194.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.29,0:00:07.39,Default,,1064,196.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.39,0:00:07.49,Default,,1062,198.0,319.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.49,0:00:07.59,Default,,1060,200.0,320.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.59,0:00:07.69,Default,,1058,202.0,320.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.69,0:00:07.79,Default,,1056,204.0,321.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.79,0:00:07.89,Default,,1054,206.0,321.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.89,0:00:07.99,Default,,1052,208.0,321.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:07.99,0:00:08.09,Default,,1050,210.0,322.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:08.09,0:00:08.19,Default,,1048,212.0,322.0,,to address when they might start easing lockdowns.
-Dialogue: 0,0:00:08.19,0:00:08.22,Default,,1046,214.0,323.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:05.49,0:00:05.59,Default,,1083,177.0,304.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:05.59,0:00:05.69,Default,,1086,174.0,297.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:05.69,0:00:05.79,Default,,1093,167.0,301.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:05.79,0:00:05.89,Default,,1098,162.0,308.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:05.89,0:00:05.99,Default,,1101,159.0,316.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:05.99,0:00:06.09,Default,,1108,152.0,320.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.09,0:00:06.19,Default,,1114,146.0,325.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.19,0:00:06.29,Default,,1120,140.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.29,0:00:06.39,Default,,1112,148.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.39,0:00:06.49,Default,,1104,156.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.49,0:00:06.59,Default,,1096,164.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.59,0:00:06.69,Default,,1088,172.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.69,0:00:06.79,Default,,1080,180.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.79,0:00:06.89,Default,,1072,188.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.89,0:00:06.99,Default,,1064,196.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:06.99,0:00:07.09,Default,,1056,204.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.09,0:00:07.19,Default,,1048,212.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.19,0:00:07.29,Default,,1040,220.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.29,0:00:07.39,Default,,1032,228.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.39,0:00:07.49,Default,,1024,236.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.49,0:00:07.59,Default,,1016,244.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.59,0:00:07.69,Default,,1008,252.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.69,0:00:07.79,Default,,1000,260.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.79,0:00:07.89,Default,,992,268.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.89,0:00:07.99,Default,,984,276.0,330.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:07.99,0:00:08.09,Default,,976,284.0,331.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:08.09,0:00:08.19,Default,,968,292.0,331.0,,to address when they might start easing lockdowns.
+Dialogue: 0,0:00:08.19,0:00:08.22,Default,,960,300.0,332.0,,to address when they might start easing lockdowns.
 Dialogue: 0,0:00:08.26,0:00:08.29,Default,,40,1243.0,361.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:08.29,0:00:08.39,Default,,38,1245.0,360.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:08.39,0:00:08.49,Default,,39,1244.0,362.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:08.49,0:00:08.59,Default,,40,1243.0,364.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:08.59,0:00:08.69,Default,,41,1242.0,366.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:08.69,0:00:08.79,Default,,42,1241.0,368.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:08.79,0:00:08.89,Default,,43,1240.0,369.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:08.89,0:00:08.99,Default,,44,1239.0,368.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:08.99,0:00:09.09,Default,,45,1238.0,368.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.09,0:00:09.19,Default,,46,1237.0,368.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.19,0:00:09.29,Default,,46,1237.0,367.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.29,0:00:09.39,Default,,46,1237.0,366.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.39,0:00:09.49,Default,,47,1236.0,366.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.49,0:00:09.59,Default,,48,1235.0,368.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.59,0:00:09.69,Default,,49,1234.0,370.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.69,0:00:09.79,Default,,50,1233.0,372.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.79,0:00:09.89,Default,,51,1232.0,374.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.89,0:00:09.99,Default,,52,1231.0,376.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:09.99,0:00:10.09,Default,,53,1230.0,378.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:10.09,0:00:10.19,Default,,54,1229.0,380.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:10.19,0:00:10.29,Default,,55,1228.0,382.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:10.29,0:00:10.39,Default,,56,1227.0,384.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:10.39,0:00:10.49,Default,,55,1228.0,386.0,,In France, finance minister Bruno le Maire
-Dialogue: 0,0:00:10.49,0:00:10.55,Default,,56,1227.0,386.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:08.29,0:00:08.39,Default,,34,1249.0,356.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:08.39,0:00:08.49,Default,,39,1244.0,363.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:08.49,0:00:08.59,Default,,45,1238.0,368.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:08.59,0:00:08.69,Default,,51,1232.0,373.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:08.69,0:00:08.79,Default,,57,1226.0,378.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:08.79,0:00:08.89,Default,,64,1219.0,382.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:08.89,0:00:08.99,Default,,69,1214.0,377.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:08.99,0:00:09.09,Default,,75,1208.0,373.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.09,0:00:09.19,Default,,82,1201.0,371.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.19,0:00:09.29,Default,,80,1203.0,364.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.29,0:00:09.39,Default,,78,1205.0,357.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.39,0:00:09.49,Default,,85,1198.0,354.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.49,0:00:09.59,Default,,90,1193.0,361.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.59,0:00:09.69,Default,,95,1188.0,368.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.69,0:00:09.79,Default,,99,1184.0,375.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.79,0:00:09.89,Default,,104,1179.0,382.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.89,0:00:09.99,Default,,109,1174.0,389.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:09.99,0:00:10.09,Default,,114,1169.0,396.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:10.09,0:00:10.19,Default,,119,1164.0,403.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:10.19,0:00:10.29,Default,,124,1159.0,410.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:10.29,0:00:10.39,Default,,129,1154.0,416.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:10.39,0:00:10.49,Default,,121,1162.0,418.0,,In France, finance minister Bruno le Maire
+Dialogue: 0,0:00:10.49,0:00:10.55,Default,,119,1164.0,411.0,,In France, finance minister Bruno le Maire
 Dialogue: 0,0:00:10.56,0:00:10.59,Default,,650,661.0,871.0,,said restaurants and bars won't open before June.
 Dialogue: 0,0:00:10.59,0:00:10.69,Default,,650,661.0,871.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:10.69,0:00:10.79,Default,,648,663.0,871.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:10.79,0:00:10.89,Default,,646,665.0,871.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:10.89,0:00:10.99,Default,,644,667.0,871.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:10.99,0:00:11.09,Default,,646,665.0,871.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.09,0:00:11.19,Default,,644,667.0,871.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.19,0:00:11.29,Default,,645,666.0,871.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.29,0:00:11.39,Default,,645,666.0,870.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.39,0:00:11.49,Default,,646,665.0,870.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.49,0:00:11.59,Default,,646,665.0,869.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.59,0:00:11.69,Default,,646,665.0,868.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.69,0:00:11.79,Default,,646,665.0,867.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.79,0:00:11.89,Default,,646,665.0,866.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.89,0:00:11.99,Default,,647,664.0,865.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:11.99,0:00:12.09,Default,,648,663.0,864.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.09,0:00:12.19,Default,,649,662.0,863.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.19,0:00:12.29,Default,,650,661.0,862.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.29,0:00:12.39,Default,,651,660.0,861.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.39,0:00:12.49,Default,,652,659.0,860.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.49,0:00:12.59,Default,,652,659.0,859.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.59,0:00:12.69,Default,,653,658.0,858.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.69,0:00:12.79,Default,,654,657.0,857.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.79,0:00:12.89,Default,,655,656.0,856.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.89,0:00:12.99,Default,,656,655.0,855.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:12.99,0:00:13.09,Default,,657,654.0,855.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.09,0:00:13.19,Default,,658,653.0,854.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.19,0:00:13.29,Default,,658,653.0,853.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.29,0:00:13.39,Default,,658,653.0,852.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.39,0:00:13.49,Default,,658,653.0,851.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.49,0:00:13.59,Default,,659,652.0,850.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.59,0:00:13.69,Default,,659,652.0,849.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.69,0:00:13.79,Default,,659,652.0,848.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.79,0:00:13.89,Default,,659,652.0,847.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.89,0:00:13.99,Default,,659,652.0,846.0,,said restaurants and bars won't open before June.
-Dialogue: 0,0:00:13.99,0:00:14.00,Default,,659,652.0,845.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:10.69,0:00:10.79,Default,,642,669.0,871.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:10.79,0:00:10.89,Default,,634,677.0,871.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:10.89,0:00:10.99,Default,,640,671.0,871.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:10.99,0:00:11.09,Default,,648,663.0,871.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.09,0:00:11.19,Default,,640,671.0,871.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.19,0:00:11.29,Default,,647,664.0,869.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.29,0:00:11.39,Default,,650,661.0,862.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.39,0:00:11.49,Default,,657,654.0,860.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.49,0:00:11.59,Default,,660,651.0,854.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.59,0:00:11.69,Default,,663,648.0,847.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.69,0:00:11.79,Default,,666,645.0,840.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.79,0:00:11.89,Default,,669,642.0,834.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.89,0:00:11.99,Default,,673,638.0,828.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:11.99,0:00:12.09,Default,,677,634.0,822.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.09,0:00:12.19,Default,,681,630.0,816.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.19,0:00:12.29,Default,,685,626.0,810.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.29,0:00:12.39,Default,,689,622.0,804.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.39,0:00:12.49,Default,,695,616.0,800.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.49,0:00:12.59,Default,,698,613.0,793.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.59,0:00:12.69,Default,,701,610.0,787.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.69,0:00:12.79,Default,,704,607.0,781.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.79,0:00:12.89,Default,,710,601.0,778.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.89,0:00:12.99,Default,,716,595.0,774.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:12.99,0:00:13.09,Default,,723,588.0,771.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.09,0:00:13.19,Default,,726,585.0,765.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.19,0:00:13.29,Default,,729,582.0,758.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.29,0:00:13.39,Default,,732,579.0,751.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.39,0:00:13.49,Default,,735,576.0,744.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.49,0:00:13.59,Default,,741,570.0,741.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.59,0:00:13.69,Default,,744,567.0,734.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.69,0:00:13.79,Default,,747,564.0,727.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.79,0:00:13.89,Default,,750,561.0,720.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.89,0:00:13.99,Default,,753,558.0,713.0,,said restaurants and bars won't open before June.
+Dialogue: 0,0:00:13.99,0:00:14.00,Default,,756,555.0,706.0,,said restaurants and bars won't open before June.
 Dialogue: 0,0:00:14.01,0:00:14.09,Default,,880,428.0,441.0,,But the sector will receive
 Dialogue: 0,0:00:14.09,0:00:14.19,Default,,880,428.0,441.0,,But the sector will receive
-Dialogue: 0,0:00:14.19,0:00:14.29,Default,,881,427.0,440.0,,But the sector will receive
-Dialogue: 0,0:00:14.29,0:00:14.39,Default,,882,426.0,439.0,,But the sector will receive
-Dialogue: 0,0:00:14.39,0:00:14.49,Default,,883,425.0,438.0,,But the sector will receive
-Dialogue: 0,0:00:14.49,0:00:14.59,Default,,884,424.0,438.0,,But the sector will receive
-Dialogue: 0,0:00:14.59,0:00:14.69,Default,,885,423.0,437.0,,But the sector will receive
-Dialogue: 0,0:00:14.69,0:00:14.77,Default,,886,422.0,436.0,,But the sector will receive
+Dialogue: 0,0:00:14.19,0:00:14.29,Default,,884,424.0,435.0,,But the sector will receive
+Dialogue: 0,0:00:14.29,0:00:14.39,Default,,888,420.0,429.0,,But the sector will receive
+Dialogue: 0,0:00:14.39,0:00:14.49,Default,,893,415.0,423.0,,But the sector will receive
+Dialogue: 0,0:00:14.49,0:00:14.59,Default,,900,408.0,421.0,,But the sector will receive
+Dialogue: 0,0:00:14.59,0:00:14.69,Default,,905,403.0,415.0,,But the sector will receive
+Dialogue: 0,0:00:14.69,0:00:14.77,Default,,910,398.0,410.0,,But the sector will receive
 Dialogue: 0,0:00:14.78,0:00:14.79,Default,,1010,190.0,301.0,,more financial support in May.
 Dialogue: 0,0:00:14.79,0:00:14.89,Default,,1010,190.0,301.0,,more financial support in May.
-Dialogue: 0,0:00:14.89,0:00:14.99,Default,,1011,189.0,302.0,,more financial support in May.
-Dialogue: 0,0:00:14.99,0:00:15.09,Default,,1012,188.0,302.0,,more financial support in May.
-Dialogue: 0,0:00:15.09,0:00:15.19,Default,,1013,187.0,303.0,,more financial support in May.
-Dialogue: 0,0:00:15.19,0:00:15.29,Default,,1014,186.0,304.0,,more financial support in May.
-Dialogue: 0,0:00:15.29,0:00:15.39,Default,,1015,185.0,306.0,,more financial support in May.
-Dialogue: 0,0:00:15.39,0:00:15.49,Default,,1016,184.0,306.0,,more financial support in May.
-Dialogue: 0,0:00:15.49,0:00:15.59,Default,,1014,186.0,306.0,,more financial support in May.
-Dialogue: 0,0:00:15.59,0:00:15.69,Default,,1015,185.0,306.0,,more financial support in May.
-Dialogue: 0,0:00:15.69,0:00:15.79,Default,,1016,184.0,306.0,,more financial support in May.
-Dialogue: 0,0:00:15.79,0:00:15.89,Default,,1014,186.0,307.0,,more financial support in May.
-Dialogue: 0,0:00:15.89,0:00:15.99,Default,,1012,188.0,308.0,,more financial support in May.
-Dialogue: 0,0:00:15.99,0:00:16.09,Default,,1010,190.0,309.0,,more financial support in May.
-Dialogue: 0,0:00:16.09,0:00:16.19,Default,,1011,189.0,311.0,,more financial support in May.
-Dialogue: 0,0:00:16.19,0:00:16.29,Default,,1009,191.0,311.0,,more financial support in May.
-Dialogue: 0,0:00:16.29,0:00:16.39,Default,,1007,193.0,311.0,,more financial support in May.
-Dialogue: 0,0:00:16.39,0:00:16.49,Default,,1005,195.0,312.0,,more financial support in May.
-Dialogue: 0,0:00:16.49,0:00:16.59,Default,,1003,197.0,313.0,,more financial support in May.
-Dialogue: 0,0:00:16.59,0:00:16.69,Default,,1001,199.0,314.0,,more financial support in May.
-Dialogue: 0,0:00:16.69,0:00:16.79,Default,,999,201.0,315.0,,more financial support in May.
-Dialogue: 0,0:00:16.79,0:00:16.89,Default,,997,203.0,316.0,,more financial support in May.
-Dialogue: 0,0:00:16.89,0:00:16.99,Default,,995,205.0,317.0,,more financial support in May.
-Dialogue: 0,0:00:16.99,0:00:17.09,Default,,993,207.0,318.0,,more financial support in May.
-Dialogue: 0,0:00:17.09,0:00:17.19,Default,,991,209.0,319.0,,more financial support in May.
-Dialogue: 0,0:00:17.19,0:00:17.29,Default,,989,211.0,320.0,,more financial support in May.
-Dialogue: 0,0:00:17.29,0:00:17.39,Default,,987,213.0,321.0,,more financial support in May.
-Dialogue: 0,0:00:17.39,0:00:17.49,Default,,985,215.0,322.0,,more financial support in May.
-Dialogue: 0,0:00:17.49,0:00:17.59,Default,,983,217.0,323.0,,more financial support in May.
-Dialogue: 0,0:00:17.59,0:00:17.69,Default,,981,219.0,324.0,,more financial support in May.
-Dialogue: 0,0:00:17.69,0:00:17.79,Default,,979,221.0,325.0,,more financial support in May.
-Dialogue: 0,0:00:17.79,0:00:17.86,Default,,977,223.0,327.0,,more financial support in May.
+Dialogue: 0,0:00:14.89,0:00:14.99,Default,,1017,183.0,303.0,,more financial support in May.
+Dialogue: 0,0:00:14.99,0:00:15.09,Default,,1024,176.0,303.0,,more financial support in May.
+Dialogue: 0,0:00:15.09,0:00:15.19,Default,,1031,169.0,304.0,,more financial support in May.
+Dialogue: 0,0:00:15.19,0:00:15.29,Default,,1038,162.0,305.0,,more financial support in May.
+Dialogue: 0,0:00:15.29,0:00:15.39,Default,,1041,159.0,313.0,,more financial support in May.
+Dialogue: 0,0:00:15.39,0:00:15.49,Default,,1048,152.0,312.0,,more financial support in May.
+Dialogue: 0,0:00:15.49,0:00:15.59,Default,,1040,160.0,312.0,,more financial support in May.
+Dialogue: 0,0:00:15.59,0:00:15.69,Default,,1047,153.0,309.0,,more financial support in May.
+Dialogue: 0,0:00:15.69,0:00:15.79,Default,,1054,146.0,309.0,,more financial support in May.
+Dialogue: 0,0:00:15.79,0:00:15.89,Default,,1046,154.0,310.0,,more financial support in May.
+Dialogue: 0,0:00:15.89,0:00:15.99,Default,,1038,162.0,311.0,,more financial support in May.
+Dialogue: 0,0:00:15.99,0:00:16.09,Default,,1030,170.0,312.0,,more financial support in May.
+Dialogue: 0,0:00:16.09,0:00:16.19,Default,,1035,165.0,319.0,,more financial support in May.
+Dialogue: 0,0:00:16.19,0:00:16.29,Default,,1027,173.0,319.0,,more financial support in May.
+Dialogue: 0,0:00:16.29,0:00:16.39,Default,,1019,181.0,319.0,,more financial support in May.
+Dialogue: 0,0:00:16.39,0:00:16.49,Default,,1011,189.0,320.0,,more financial support in May.
+Dialogue: 0,0:00:16.49,0:00:16.59,Default,,1003,197.0,321.0,,more financial support in May.
+Dialogue: 0,0:00:16.59,0:00:16.69,Default,,995,205.0,322.0,,more financial support in May.
+Dialogue: 0,0:00:16.69,0:00:16.79,Default,,987,213.0,323.0,,more financial support in May.
+Dialogue: 0,0:00:16.79,0:00:16.89,Default,,979,221.0,324.0,,more financial support in May.
+Dialogue: 0,0:00:16.89,0:00:16.99,Default,,971,229.0,325.0,,more financial support in May.
+Dialogue: 0,0:00:16.99,0:00:17.09,Default,,963,237.0,328.0,,more financial support in May.
+Dialogue: 0,0:00:17.09,0:00:17.19,Default,,955,245.0,331.0,,more financial support in May.
+Dialogue: 0,0:00:17.19,0:00:17.29,Default,,947,253.0,335.0,,more financial support in May.
+Dialogue: 0,0:00:17.29,0:00:17.39,Default,,939,261.0,338.0,,more financial support in May.
+Dialogue: 0,0:00:17.39,0:00:17.49,Default,,931,269.0,342.0,,more financial support in May.
+Dialogue: 0,0:00:17.49,0:00:17.59,Default,,923,277.0,346.0,,more financial support in May.
+Dialogue: 0,0:00:17.59,0:00:17.69,Default,,915,285.0,348.0,,more financial support in May.
+Dialogue: 0,0:00:17.69,0:00:17.79,Default,,907,293.0,349.0,,more financial support in May.
+Dialogue: 0,0:00:17.79,0:00:17.86,Default,,900,300.0,354.0,,more financial support in May.
 Dialogue: 0,0:00:19.09,0:00:19.10,Default,,0,0,0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:19.10,0:00:19.20,Default,,660,380.0,401.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:19.20,0:00:19.30,Default,,660,380.0,403.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:19.30,0:00:19.40,Default,,660,380.0,401.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:19.40,0:00:19.50,Default,,660,380.0,399.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:19.10,0:00:19.20,Default,,690,350.0,401.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:19.20,0:00:19.30,Default,,682,358.0,404.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:19.30,0:00:19.40,Default,,674,366.0,403.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:19.40,0:00:19.50,Default,,667,373.0,398.0,,"We plan to open in the best sanitary
 Dialogue: 0,0:00:19.50,0:00:19.60,Default,,660,380.0,401.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:19.60,0:00:19.70,Default,,660,380.0,403.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:19.70,0:00:19.80,Default,,661,379.0,403.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:19.80,0:00:19.90,Default,,662,378.0,403.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:19.90,0:00:20.00,Default,,663,377.0,404.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.00,0:00:20.10,Default,,664,376.0,405.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.10,0:00:20.20,Default,,665,375.0,406.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.20,0:00:20.30,Default,,666,374.0,405.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.30,0:00:20.40,Default,,667,373.0,406.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.40,0:00:20.50,Default,,667,373.0,405.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.50,0:00:20.60,Default,,666,374.0,404.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.60,0:00:20.70,Default,,665,375.0,403.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.70,0:00:20.80,Default,,666,374.0,404.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.80,0:00:20.90,Default,,667,373.0,405.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:20.90,0:00:21.00,Default,,668,372.0,404.0,,"We plan to open in the best sanitary
-Dialogue: 0,0:00:21.00,0:00:21.08,Default,,669,371.0,405.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:19.60,0:00:19.70,Default,,666,374.0,406.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:19.70,0:00:19.80,Default,,672,368.0,402.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:19.80,0:00:19.90,Default,,679,361.0,401.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:19.90,0:00:20.00,Default,,686,354.0,402.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.00,0:00:20.10,Default,,693,347.0,403.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.10,0:00:20.20,Default,,700,340.0,406.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.20,0:00:20.30,Default,,692,348.0,405.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.30,0:00:20.40,Default,,699,341.0,408.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.40,0:00:20.50,Default,,692,348.0,404.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.50,0:00:20.60,Default,,685,355.0,400.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.60,0:00:20.70,Default,,678,362.0,396.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.70,0:00:20.80,Default,,685,355.0,399.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.80,0:00:20.90,Default,,692,348.0,401.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:20.90,0:00:21.00,Default,,684,356.0,401.0,,"We plan to open in the best sanitary
+Dialogue: 0,0:00:21.00,0:00:21.08,Default,,691,349.0,404.0,,"We plan to open in the best sanitary
 Dialogue: 0,0:00:21.08,0:00:21.10,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:21.10,0:00:21.20,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:21.20,0:00:21.30,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:21.30,0:00:21.40,Default,,672,507.0,381.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:21.30,0:00:21.40,Default,,678,501.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:21.40,0:00:21.50,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:21.50,0:00:21.60,Default,,672,507.0,381.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:21.50,0:00:21.60,Default,,678,501.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:21.60,0:00:21.70,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:21.70,0:00:21.80,Default,,672,507.0,381.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:21.70,0:00:21.80,Default,,678,501.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:21.80,0:00:21.90,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:21.90,0:00:22.00,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:22.00,0:00:22.10,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:22.10,0:00:22.20,Default,,670,509.0,381.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:22.20,0:00:22.30,Default,,671,508.0,383.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:22.30,0:00:22.40,Default,,671,508.0,385.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:22.40,0:00:22.50,Default,,671,508.0,387.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:22.50,0:00:22.60,Default,,671,508.0,389.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:22.60,0:00:22.70,Default,,671,508.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:22.70,0:00:22.80,Default,,669,510.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:22.80,0:00:22.90,Default,,667,512.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:22.90,0:00:23.00,Default,,665,514.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.00,0:00:23.10,Default,,663,516.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.10,0:00:23.20,Default,,661,518.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.20,0:00:23.30,Default,,659,520.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.30,0:00:23.40,Default,,657,522.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.40,0:00:23.50,Default,,655,524.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.50,0:00:23.60,Default,,653,526.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.60,0:00:23.70,Default,,651,528.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.70,0:00:23.80,Default,,649,530.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.80,0:00:23.90,Default,,647,532.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:23.90,0:00:24.00,Default,,645,534.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:24.00,0:00:24.10,Default,,643,536.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:24.10,0:00:24.20,Default,,641,538.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:24.20,0:00:24.30,Default,,639,540.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:24.30,0:00:24.40,Default,,637,542.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:24.40,0:00:24.50,Default,,635,544.0,391.0,,conditions possible to reassure customers and employees."
-Dialogue: 0,0:00:24.50,0:00:24.54,Default,,633,546.0,391.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:22.20,0:00:22.30,Default,,674,505.0,388.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:22.30,0:00:22.40,Default,,676,503.0,396.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:22.40,0:00:22.50,Default,,678,501.0,404.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:22.50,0:00:22.60,Default,,680,499.0,412.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:22.60,0:00:22.70,Default,,683,496.0,420.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:22.70,0:00:22.80,Default,,675,504.0,417.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:22.80,0:00:22.90,Default,,667,512.0,414.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:22.90,0:00:23.00,Default,,659,520.0,411.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.00,0:00:23.10,Default,,651,528.0,408.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.10,0:00:23.20,Default,,643,536.0,405.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.20,0:00:23.30,Default,,635,544.0,402.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.30,0:00:23.40,Default,,627,552.0,399.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.40,0:00:23.50,Default,,619,560.0,396.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.50,0:00:23.60,Default,,611,568.0,393.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.60,0:00:23.70,Default,,604,575.0,390.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.70,0:00:23.80,Default,,597,582.0,386.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.80,0:00:23.90,Default,,590,589.0,382.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:23.90,0:00:24.00,Default,,590,589.0,390.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:24.00,0:00:24.10,Default,,590,589.0,382.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:24.10,0:00:24.20,Default,,597,582.0,382.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:24.20,0:00:24.30,Default,,600,579.0,381.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:24.30,0:00:24.40,Default,,592,587.0,381.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:24.40,0:00:24.50,Default,,600,579.0,381.0,,conditions possible to reassure customers and employees."
+Dialogue: 0,0:00:24.50,0:00:24.54,Default,,592,587.0,381.0,,conditions possible to reassure customers and employees."
 Dialogue: 0,0:00:24.55,0:00:24.60,Default,,600,494.0,381.0,,A guide to good practice is backed by a legal framework,
 Dialogue: 0,0:00:24.60,0:00:24.70,Default,,600,494.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:24.70,0:00:24.80,Default,,600,494.0,383.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:24.80,0:00:24.90,Default,,600,494.0,381.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:24.70,0:00:24.80,Default,,603,491.0,389.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:24.80,0:00:24.90,Default,,600,494.0,382.0,,A guide to good practice is backed by a legal framework,
 Dialogue: 0,0:00:24.90,0:00:25.00,Default,,600,494.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.00,0:00:25.10,Default,,601,493.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.10,0:00:25.20,Default,,602,492.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.20,0:00:25.30,Default,,603,491.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.30,0:00:25.40,Default,,605,489.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.40,0:00:25.50,Default,,607,487.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.50,0:00:25.60,Default,,609,485.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.60,0:00:25.70,Default,,611,483.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.70,0:00:25.80,Default,,612,482.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.80,0:00:25.90,Default,,613,481.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:25.90,0:00:26.00,Default,,614,480.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.00,0:00:26.10,Default,,615,479.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.10,0:00:26.20,Default,,616,478.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.20,0:00:26.30,Default,,617,477.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.30,0:00:26.40,Default,,618,476.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.40,0:00:26.50,Default,,619,475.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.50,0:00:26.60,Default,,620,474.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.60,0:00:26.70,Default,,621,473.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.70,0:00:26.80,Default,,622,472.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.80,0:00:26.90,Default,,623,471.0,381.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:26.90,0:00:27.00,Default,,621,473.0,382.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.00,0:00:27.10,Default,,622,472.0,382.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.10,0:00:27.20,Default,,620,474.0,383.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.20,0:00:27.30,Default,,618,476.0,384.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.30,0:00:27.40,Default,,619,475.0,384.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.40,0:00:27.50,Default,,620,474.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.50,0:00:27.60,Default,,621,473.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.60,0:00:27.70,Default,,622,472.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.70,0:00:27.80,Default,,623,471.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.80,0:00:27.90,Default,,624,470.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:27.90,0:00:28.00,Default,,625,469.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:28.00,0:00:28.10,Default,,623,471.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:28.10,0:00:28.20,Default,,624,470.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:28.20,0:00:28.30,Default,,625,469.0,385.0,,A guide to good practice is backed by a legal framework,
-Dialogue: 0,0:00:28.30,0:00:28.36,Default,,623,471.0,385.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.00,0:00:25.10,Default,,607,487.0,380.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.10,0:00:25.20,Default,,614,480.0,379.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.20,0:00:25.30,Default,,621,473.0,379.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.30,0:00:25.40,Default,,628,466.0,380.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.40,0:00:25.50,Default,,635,459.0,381.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.50,0:00:25.60,Default,,643,451.0,381.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.60,0:00:25.70,Default,,651,443.0,381.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.70,0:00:25.80,Default,,658,436.0,380.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.80,0:00:25.90,Default,,665,429.0,379.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:25.90,0:00:26.00,Default,,672,422.0,378.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.00,0:00:26.10,Default,,667,427.0,372.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.10,0:00:26.20,Default,,674,420.0,371.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.20,0:00:26.30,Default,,667,427.0,367.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.30,0:00:26.40,Default,,660,434.0,362.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.40,0:00:26.50,Default,,660,434.0,361.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.50,0:00:26.60,Default,,660,434.0,361.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.60,0:00:26.70,Default,,668,426.0,361.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.70,0:00:26.80,Default,,676,418.0,361.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.80,0:00:26.90,Default,,684,410.0,361.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:26.90,0:00:27.00,Default,,676,418.0,364.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.00,0:00:27.10,Default,,668,426.0,363.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.10,0:00:27.20,Default,,660,434.0,367.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.20,0:00:27.30,Default,,652,442.0,370.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.30,0:00:27.40,Default,,659,435.0,371.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.40,0:00:27.50,Default,,666,428.0,374.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.50,0:00:27.60,Default,,673,421.0,375.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.60,0:00:27.70,Default,,680,414.0,376.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.70,0:00:27.80,Default,,687,407.0,377.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.80,0:00:27.90,Default,,694,400.0,378.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:27.90,0:00:28.00,Default,,701,393.0,379.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:28.00,0:00:28.10,Default,,693,401.0,380.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:28.10,0:00:28.20,Default,,685,409.0,381.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:28.20,0:00:28.30,Default,,692,402.0,379.0,,A guide to good practice is backed by a legal framework,
+Dialogue: 0,0:00:28.30,0:00:28.36,Default,,684,410.0,380.0,,A guide to good practice is backed by a legal framework,
 Dialogue: 0,0:00:28.36,0:00:28.40,Default,,740,583.0,361.0,,a review clause and then a final decision
 Dialogue: 0,0:00:28.40,0:00:28.50,Default,,740,583.0,361.0,,a review clause and then a final decision
 Dialogue: 0,0:00:28.50,0:00:28.60,Default,,740,583.0,361.0,,a review clause and then a final decision
 Dialogue: 0,0:00:28.60,0:00:28.70,Default,,740,583.0,361.0,,a review clause and then a final decision
 Dialogue: 0,0:00:28.70,0:00:28.80,Default,,740,583.0,361.0,,a review clause and then a final decision
-Dialogue: 0,0:00:28.80,0:00:28.90,Default,,738,585.0,361.0,,a review clause and then a final decision
-Dialogue: 0,0:00:28.90,0:00:29.00,Default,,737,586.0,360.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.00,0:00:29.10,Default,,737,586.0,359.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.10,0:00:29.20,Default,,737,586.0,361.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.20,0:00:29.30,Default,,738,585.0,360.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.30,0:00:29.40,Default,,739,584.0,362.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.40,0:00:29.50,Default,,740,583.0,364.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.50,0:00:29.60,Default,,741,582.0,366.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.60,0:00:29.70,Default,,741,582.0,368.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.70,0:00:29.80,Default,,741,582.0,370.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.80,0:00:29.90,Default,,742,581.0,372.0,,a review clause and then a final decision
-Dialogue: 0,0:00:29.90,0:00:30.00,Default,,743,580.0,374.0,,a review clause and then a final decision
-Dialogue: 0,0:00:30.00,0:00:30.10,Default,,744,579.0,376.0,,a review clause and then a final decision
-Dialogue: 0,0:00:30.10,0:00:30.17,Default,,742,581.0,377.0,,a review clause and then a final decision
+Dialogue: 0,0:00:28.80,0:00:28.90,Default,,732,591.0,361.0,,a review clause and then a final decision
+Dialogue: 0,0:00:28.90,0:00:29.00,Default,,731,592.0,354.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.00,0:00:29.10,Default,,735,588.0,348.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.10,0:00:29.20,Default,,735,588.0,356.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.20,0:00:29.30,Default,,741,582.0,352.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.30,0:00:29.40,Default,,744,579.0,360.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.40,0:00:29.50,Default,,747,576.0,368.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.50,0:00:29.60,Default,,751,572.0,375.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.60,0:00:29.70,Default,,754,569.0,383.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.70,0:00:29.80,Default,,757,566.0,391.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.80,0:00:29.90,Default,,752,571.0,385.0,,a review clause and then a final decision
+Dialogue: 0,0:00:29.90,0:00:30.00,Default,,758,565.0,389.0,,a review clause and then a final decision
+Dialogue: 0,0:00:30.00,0:00:30.10,Default,,759,564.0,397.0,,a review clause and then a final decision
+Dialogue: 0,0:00:30.10,0:00:30.17,Default,,751,572.0,397.0,,a review clause and then a final decision
 Dialogue: 0,0:00:30.18,0:00:30.20,Default,,740,697.0,301.0,,twenty-eight of May. What all be needed
 Dialogue: 0,0:00:30.20,0:00:30.30,Default,,740,697.0,301.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:30.30,0:00:30.40,Default,,740,697.0,303.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:30.40,0:00:30.50,Default,,740,697.0,305.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:30.50,0:00:30.60,Default,,740,697.0,307.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:30.60,0:00:30.70,Default,,741,696.0,309.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:30.70,0:00:30.80,Default,,742,695.0,311.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:30.80,0:00:30.90,Default,,743,694.0,313.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:30.90,0:00:31.00,Default,,744,693.0,315.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.00,0:00:31.10,Default,,745,692.0,317.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.10,0:00:31.20,Default,,744,693.0,319.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.20,0:00:31.30,Default,,745,692.0,319.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.30,0:00:31.40,Default,,746,691.0,318.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.40,0:00:31.50,Default,,744,693.0,319.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.50,0:00:31.60,Default,,744,693.0,318.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.60,0:00:31.70,Default,,744,693.0,317.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.70,0:00:31.80,Default,,744,693.0,316.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.80,0:00:31.90,Default,,744,693.0,315.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:31.90,0:00:32.00,Default,,744,693.0,314.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:32.00,0:00:32.10,Default,,744,693.0,313.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:32.10,0:00:32.20,Default,,743,694.0,312.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:32.20,0:00:32.30,Default,,742,695.0,311.0,,twenty-eight of May. What all be needed
-Dialogue: 0,0:00:32.30,0:00:32.34,Default,,740,697.0,312.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:30.30,0:00:30.40,Default,,741,696.0,309.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:30.40,0:00:30.50,Default,,740,697.0,317.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:30.50,0:00:30.60,Default,,744,693.0,324.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:30.60,0:00:30.70,Default,,749,688.0,330.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:30.70,0:00:30.80,Default,,756,681.0,331.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:30.80,0:00:30.90,Default,,758,679.0,339.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:30.90,0:00:31.00,Default,,760,677.0,341.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.00,0:00:31.10,Default,,760,677.0,341.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.10,0:00:31.20,Default,,755,682.0,348.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.20,0:00:31.30,Default,,756,681.0,341.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.30,0:00:31.40,Default,,758,679.0,334.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.40,0:00:31.50,Default,,750,687.0,337.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.50,0:00:31.60,Default,,750,687.0,329.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.60,0:00:31.70,Default,,750,687.0,321.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.70,0:00:31.80,Default,,750,687.0,313.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.80,0:00:31.90,Default,,750,687.0,305.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:31.90,0:00:32.00,Default,,750,687.0,297.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:32.00,0:00:32.10,Default,,750,687.0,291.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:32.10,0:00:32.20,Default,,742,695.0,291.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:32.20,0:00:32.30,Default,,740,697.0,291.0,,twenty-eight of May. What all be needed
+Dialogue: 0,0:00:32.30,0:00:32.34,Default,,732,705.0,295.0,,twenty-eight of May. What all be needed
 Dialogue: 0,0:00:32.38,0:00:32.40,Default,,1010,244.0,501.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:32.40,0:00:32.50,Default,,1010,244.0,503.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:32.50,0:00:32.60,Default,,1010,244.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:32.60,0:00:32.70,Default,,1008,246.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:32.70,0:00:32.80,Default,,1006,248.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:32.80,0:00:32.90,Default,,1004,250.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:32.90,0:00:33.00,Default,,1002,252.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.00,0:00:33.10,Default,,1000,254.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.10,0:00:33.20,Default,,998,256.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.20,0:00:33.30,Default,,996,258.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.30,0:00:33.40,Default,,994,260.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.40,0:00:33.50,Default,,992,262.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.50,0:00:33.60,Default,,990,264.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.60,0:00:33.70,Default,,988,266.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.70,0:00:33.80,Default,,986,268.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.80,0:00:33.90,Default,,984,270.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:33.90,0:00:34.00,Default,,982,272.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.00,0:00:34.10,Default,,980,274.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.10,0:00:34.20,Default,,978,276.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.20,0:00:34.30,Default,,976,278.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.30,0:00:34.40,Default,,974,280.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.40,0:00:34.50,Default,,972,282.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.50,0:00:34.60,Default,,970,284.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.60,0:00:34.70,Default,,968,286.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.70,0:00:34.80,Default,,966,288.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.80,0:00:34.90,Default,,964,290.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:34.90,0:00:35.00,Default,,962,292.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.00,0:00:35.10,Default,,960,294.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.10,0:00:35.20,Default,,958,296.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.20,0:00:35.30,Default,,956,298.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.30,0:00:35.40,Default,,954,300.0,505.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.40,0:00:35.50,Default,,952,302.0,504.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.50,0:00:35.60,Default,,950,304.0,503.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.60,0:00:35.70,Default,,948,306.0,502.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.70,0:00:35.80,Default,,946,308.0,502.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.80,0:00:35.90,Default,,944,310.0,501.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:35.90,0:00:36.00,Default,,942,312.0,501.0,,to have a precise reopening date for cafes, restaurants
-Dialogue: 0,0:00:36.00,0:00:36.02,Default,,940,314.0,500.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:32.40,0:00:32.50,Default,,1013,241.0,509.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:32.50,0:00:32.60,Default,,1016,238.0,517.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:32.60,0:00:32.70,Default,,1008,246.0,514.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:32.70,0:00:32.80,Default,,1000,254.0,513.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:32.80,0:00:32.90,Default,,992,262.0,511.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:32.90,0:00:33.00,Default,,984,270.0,508.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.00,0:00:33.10,Default,,976,278.0,505.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.10,0:00:33.20,Default,,968,286.0,504.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.20,0:00:33.30,Default,,960,294.0,501.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.30,0:00:33.40,Default,,952,302.0,498.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.40,0:00:33.50,Default,,944,310.0,495.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.50,0:00:33.60,Default,,936,318.0,493.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.60,0:00:33.70,Default,,928,326.0,490.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.70,0:00:33.80,Default,,920,334.0,488.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.80,0:00:33.90,Default,,912,342.0,486.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:33.90,0:00:34.00,Default,,905,349.0,483.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.00,0:00:34.10,Default,,898,356.0,479.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.10,0:00:34.20,Default,,891,363.0,475.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.20,0:00:34.30,Default,,884,370.0,471.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.30,0:00:34.40,Default,,876,378.0,469.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.40,0:00:34.50,Default,,868,386.0,466.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.50,0:00:34.60,Default,,860,394.0,465.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.60,0:00:34.70,Default,,852,402.0,463.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.70,0:00:34.80,Default,,844,410.0,460.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.80,0:00:34.90,Default,,836,418.0,457.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:34.90,0:00:35.00,Default,,828,426.0,454.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.00,0:00:35.10,Default,,820,434.0,451.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.10,0:00:35.20,Default,,812,442.0,448.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.20,0:00:35.30,Default,,804,450.0,446.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.30,0:00:35.40,Default,,796,458.0,444.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.40,0:00:35.50,Default,,791,463.0,438.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.50,0:00:35.60,Default,,786,468.0,432.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.60,0:00:35.70,Default,,781,473.0,426.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.70,0:00:35.80,Default,,773,481.0,423.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.80,0:00:35.90,Default,,767,487.0,417.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:35.90,0:00:36.00,Default,,759,495.0,414.0,,to have a precise reopening date for cafes, restaurants
+Dialogue: 0,0:00:36.00,0:00:36.02,Default,,755,499.0,407.0,,to have a precise reopening date for cafes, restaurants
 Dialogue: 0,0:00:36.03,0:00:36.10,Default,,850,845.0,281.0,,and bars.
 Dialogue: 0,0:00:36.10,0:00:36.20,Default,,850,845.0,281.0,,and bars.
-Dialogue: 0,0:00:36.20,0:00:36.30,Default,,852,843.0,281.0,,and bars.
-Dialogue: 0,0:00:36.30,0:00:36.40,Default,,854,841.0,281.0,,and bars.
-Dialogue: 0,0:00:36.40,0:00:36.50,Default,,852,843.0,281.0,,and bars.
+Dialogue: 0,0:00:36.20,0:00:36.30,Default,,858,837.0,281.0,,and bars.
+Dialogue: 0,0:00:36.30,0:00:36.40,Default,,866,829.0,281.0,,and bars.
+Dialogue: 0,0:00:36.40,0:00:36.50,Default,,858,837.0,281.0,,and bars.
 Dialogue: 0,0:00:36.50,0:00:36.60,Default,,850,845.0,281.0,,and bars.
 Dialogue: 0,0:00:36.60,0:00:36.70,Default,,850,845.0,281.0,,and bars.
 Dialogue: 0,0:00:36.70,0:00:36.80,Default,,850,845.0,281.0,,and bars.
@@ -383,103 +383,103 @@ Dialogue: 0,0:00:36.90,0:00:37.00,Default,,850,845.0,281.0,,and bars.
 Dialogue: 0,0:00:37.00,0:00:37.04,Default,,850,845.0,281.0,,and bars.
 Dialogue: 0,0:00:39.05,0:00:39.10,Default,,810,549.0,411.0,,For Belgian restaurants and bars will stay shut
 Dialogue: 0,0:00:39.10,0:00:39.20,Default,,810,549.0,411.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:39.20,0:00:39.30,Default,,808,551.0,411.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:39.30,0:00:39.40,Default,,806,553.0,411.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:39.40,0:00:39.50,Default,,804,555.0,410.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:39.50,0:00:39.60,Default,,802,557.0,409.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:39.60,0:00:39.70,Default,,801,558.0,408.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:39.70,0:00:39.80,Default,,799,560.0,407.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:39.80,0:00:39.90,Default,,797,562.0,406.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:39.90,0:00:40.00,Default,,795,564.0,405.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.00,0:00:40.10,Default,,793,566.0,404.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.10,0:00:40.20,Default,,792,567.0,403.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.20,0:00:40.30,Default,,791,568.0,402.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.30,0:00:40.40,Default,,790,569.0,401.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.40,0:00:40.50,Default,,790,569.0,401.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.50,0:00:40.60,Default,,791,568.0,403.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.60,0:00:40.70,Default,,792,567.0,405.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.70,0:00:40.80,Default,,793,566.0,407.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.80,0:00:40.90,Default,,794,565.0,409.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:40.90,0:00:41.00,Default,,795,564.0,411.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:41.00,0:00:41.10,Default,,796,563.0,413.0,,For Belgian restaurants and bars will stay shut
-Dialogue: 0,0:00:41.10,0:00:41.10,Default,,797,562.0,415.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:39.20,0:00:39.30,Default,,802,557.0,411.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:39.30,0:00:39.40,Default,,794,565.0,411.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:39.40,0:00:39.50,Default,,791,568.0,404.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:39.50,0:00:39.60,Default,,790,569.0,401.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:39.60,0:00:39.70,Default,,788,571.0,394.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:39.70,0:00:39.80,Default,,783,576.0,388.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:39.80,0:00:39.90,Default,,780,579.0,381.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:39.90,0:00:40.00,Default,,780,579.0,381.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.00,0:00:40.10,Default,,780,579.0,381.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.10,0:00:40.20,Default,,780,579.0,373.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.20,0:00:40.30,Default,,780,579.0,371.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.30,0:00:40.40,Default,,780,579.0,363.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.40,0:00:40.50,Default,,782,577.0,371.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.50,0:00:40.60,Default,,788,571.0,376.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.60,0:00:40.70,Default,,794,565.0,381.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.70,0:00:40.80,Default,,800,559.0,386.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.80,0:00:40.90,Default,,806,553.0,392.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:40.90,0:00:41.00,Default,,812,547.0,397.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:41.00,0:00:41.10,Default,,818,541.0,402.0,,For Belgian restaurants and bars will stay shut
+Dialogue: 0,0:00:41.10,0:00:41.10,Default,,824,535.0,408.0,,For Belgian restaurants and bars will stay shut
 Dialogue: 0,0:00:41.12,0:00:41.20,Default,,870,234.0,621.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:41.20,0:00:41.30,Default,,868,236.0,621.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:41.30,0:00:41.40,Default,,866,238.0,621.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:41.40,0:00:41.50,Default,,864,240.0,622.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:41.50,0:00:41.60,Default,,865,239.0,621.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:41.60,0:00:41.70,Default,,866,238.0,620.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:41.70,0:00:41.80,Default,,867,237.0,619.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:41.80,0:00:41.90,Default,,868,236.0,618.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:41.90,0:00:42.00,Default,,869,235.0,617.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.00,0:00:42.10,Default,,870,234.0,616.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.10,0:00:42.20,Default,,871,233.0,615.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.20,0:00:42.30,Default,,872,232.0,614.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.30,0:00:42.40,Default,,873,231.0,613.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.40,0:00:42.50,Default,,874,230.0,612.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.50,0:00:42.60,Default,,874,230.0,611.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.60,0:00:42.70,Default,,874,230.0,610.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.70,0:00:42.80,Default,,875,229.0,609.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.80,0:00:42.90,Default,,876,228.0,608.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:42.90,0:00:43.00,Default,,877,227.0,607.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.00,0:00:43.10,Default,,878,226.0,606.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.10,0:00:43.20,Default,,876,228.0,607.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.20,0:00:43.30,Default,,874,230.0,608.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.30,0:00:43.40,Default,,872,232.0,609.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.40,0:00:43.50,Default,,870,234.0,610.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.50,0:00:43.60,Default,,868,236.0,611.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.60,0:00:43.70,Default,,869,235.0,610.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.70,0:00:43.80,Default,,870,234.0,609.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.80,0:00:43.90,Default,,869,235.0,611.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:43.90,0:00:44.00,Default,,868,236.0,613.0,,throughout May as well. But prime minister Sophie Wilmés,
-Dialogue: 0,0:00:44.00,0:00:44.08,Default,,867,237.0,615.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:41.20,0:00:41.30,Default,,862,242.0,621.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:41.30,0:00:41.40,Default,,854,250.0,621.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:41.40,0:00:41.50,Default,,846,258.0,625.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:41.50,0:00:41.60,Default,,851,253.0,620.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:41.60,0:00:41.70,Default,,856,248.0,615.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:41.70,0:00:41.80,Default,,861,243.0,609.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:41.80,0:00:41.90,Default,,866,238.0,603.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:41.90,0:00:42.00,Default,,871,233.0,597.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.00,0:00:42.10,Default,,876,228.0,591.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.10,0:00:42.20,Default,,881,223.0,585.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.20,0:00:42.30,Default,,886,218.0,580.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.30,0:00:42.40,Default,,891,213.0,574.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.40,0:00:42.50,Default,,896,208.0,568.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.50,0:00:42.60,Default,,900,204.0,562.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.60,0:00:42.70,Default,,904,200.0,556.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.70,0:00:42.80,Default,,909,195.0,551.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.80,0:00:42.90,Default,,914,190.0,546.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:42.90,0:00:43.00,Default,,919,185.0,541.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.00,0:00:43.10,Default,,924,180.0,536.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.10,0:00:43.20,Default,,917,187.0,542.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.20,0:00:43.30,Default,,910,194.0,548.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.30,0:00:43.40,Default,,903,201.0,553.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.40,0:00:43.50,Default,,897,207.0,559.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.50,0:00:43.60,Default,,892,212.0,566.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.60,0:00:43.70,Default,,889,215.0,574.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.70,0:00:43.80,Default,,886,218.0,582.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.80,0:00:43.90,Default,,884,220.0,590.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:43.90,0:00:44.00,Default,,882,222.0,598.0,,throughout May as well. But prime minister Sophie Wilmés,
+Dialogue: 0,0:00:44.00,0:00:44.08,Default,,880,224.0,606.0,,throughout May as well. But prime minister Sophie Wilmés,
 Dialogue: 0,0:00:44.08,0:00:44.10,Default,,830,331.0,891.0,,announced on Friday that some shops will be allowed
 Dialogue: 0,0:00:44.10,0:00:44.20,Default,,830,331.0,891.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:44.20,0:00:44.30,Default,,832,329.0,891.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:44.30,0:00:44.40,Default,,832,329.0,890.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:44.40,0:00:44.50,Default,,832,329.0,889.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:44.50,0:00:44.60,Default,,832,329.0,888.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:44.60,0:00:44.70,Default,,833,328.0,889.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:44.70,0:00:44.80,Default,,833,328.0,888.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:44.80,0:00:44.90,Default,,833,328.0,887.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:44.90,0:00:45.00,Default,,834,327.0,888.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.00,0:00:45.10,Default,,835,326.0,889.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.10,0:00:45.20,Default,,836,325.0,890.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.20,0:00:45.30,Default,,837,324.0,891.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.30,0:00:45.40,Default,,839,322.0,891.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:44.20,0:00:44.30,Default,,838,323.0,891.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:44.30,0:00:44.40,Default,,839,322.0,884.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:44.40,0:00:44.50,Default,,840,321.0,877.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:44.50,0:00:44.60,Default,,841,320.0,870.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:44.60,0:00:44.70,Default,,840,321.0,878.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:44.70,0:00:44.80,Default,,841,320.0,871.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:44.80,0:00:44.90,Default,,842,319.0,864.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:44.90,0:00:45.00,Default,,841,320.0,872.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.00,0:00:45.10,Default,,840,321.0,880.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.10,0:00:45.20,Default,,840,321.0,888.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.20,0:00:45.30,Default,,840,321.0,891.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.30,0:00:45.40,Default,,840,321.0,891.0,,announced on Friday that some shops will be allowed
 Dialogue: 0,0:00:45.40,0:00:45.50,Default,,840,321.0,891.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.50,0:00:45.60,Default,,840,321.0,890.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.60,0:00:45.70,Default,,840,321.0,889.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.70,0:00:45.80,Default,,840,321.0,888.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.80,0:00:45.90,Default,,840,321.0,890.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:45.90,0:00:46.00,Default,,840,321.0,889.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:46.00,0:00:46.10,Default,,840,321.0,888.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:46.10,0:00:46.20,Default,,840,321.0,887.0,,announced on Friday that some shops will be allowed
-Dialogue: 0,0:00:46.20,0:00:46.20,Default,,840,321.0,886.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.50,0:00:45.60,Default,,841,320.0,884.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.60,0:00:45.70,Default,,842,319.0,877.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.70,0:00:45.80,Default,,843,318.0,870.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.80,0:00:45.90,Default,,841,320.0,878.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:45.90,0:00:46.00,Default,,844,317.0,871.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:46.00,0:00:46.10,Default,,847,314.0,864.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:46.10,0:00:46.20,Default,,848,313.0,857.0,,announced on Friday that some shops will be allowed
+Dialogue: 0,0:00:46.20,0:00:46.20,Default,,849,312.0,850.0,,announced on Friday that some shops will be allowed
 Dialogue: 0,0:00:46.22,0:00:46.30,Default,,990,102.0,531.0,,to open up again on May eleventh.
 Dialogue: 0,0:00:46.30,0:00:46.40,Default,,990,102.0,531.0,,to open up again on May eleventh.
 Dialogue: 0,0:00:46.40,0:00:46.50,Default,,990,102.0,531.0,,to open up again on May eleventh.
 Dialogue: 0,0:00:46.50,0:00:46.60,Default,,990,102.0,531.0,,to open up again on May eleventh.
 Dialogue: 0,0:00:46.60,0:00:46.70,Default,,990,102.0,531.0,,to open up again on May eleventh.
 Dialogue: 0,0:00:46.70,0:00:46.80,Default,,990,102.0,531.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:46.80,0:00:46.90,Default,,988,104.0,531.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:46.90,0:00:47.00,Default,,986,106.0,533.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.00,0:00:47.10,Default,,984,108.0,535.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.10,0:00:47.20,Default,,982,110.0,537.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.20,0:00:47.30,Default,,980,112.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.30,0:00:47.40,Default,,978,114.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.40,0:00:47.50,Default,,976,116.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.50,0:00:47.60,Default,,974,118.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.60,0:00:47.70,Default,,972,120.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.70,0:00:47.80,Default,,970,122.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.80,0:00:47.90,Default,,968,124.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:47.90,0:00:48.00,Default,,966,126.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:48.00,0:00:48.10,Default,,964,128.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:48.10,0:00:48.20,Default,,962,130.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:48.20,0:00:48.30,Default,,960,132.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:48.30,0:00:48.40,Default,,958,134.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:48.40,0:00:48.50,Default,,956,136.0,539.0,,to open up again on May eleventh.
-Dialogue: 0,0:00:48.50,0:00:48.55,Default,,954,138.0,539.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:46.80,0:00:46.90,Default,,982,110.0,531.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:46.90,0:00:47.00,Default,,975,117.0,537.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.00,0:00:47.10,Default,,968,124.0,543.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.10,0:00:47.20,Default,,962,130.0,549.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.20,0:00:47.30,Default,,956,136.0,555.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.30,0:00:47.40,Default,,948,144.0,552.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.40,0:00:47.50,Default,,940,152.0,549.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.50,0:00:47.60,Default,,932,160.0,546.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.60,0:00:47.70,Default,,924,168.0,543.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.70,0:00:47.80,Default,,916,176.0,540.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.80,0:00:47.90,Default,,908,184.0,537.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:47.90,0:00:48.00,Default,,900,192.0,534.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:48.00,0:00:48.10,Default,,892,200.0,531.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:48.10,0:00:48.20,Default,,884,208.0,528.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:48.20,0:00:48.30,Default,,876,216.0,525.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:48.30,0:00:48.40,Default,,868,224.0,522.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:48.40,0:00:48.50,Default,,860,232.0,519.0,,to open up again on May eleventh.
+Dialogue: 0,0:00:48.50,0:00:48.55,Default,,852,240.0,516.0,,to open up again on May eleventh.
 Dialogue: 0,0:00:48.83,0:00:48.90,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:48.90,0:00:49.00,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:49.00,0:00:49.10,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
@@ -503,7 +503,7 @@ Dialogue: 0,0:00:50.70,0:00:50.80,Default,,410,769.0,861.0,,With schools to foll
 Dialogue: 0,0:00:50.80,0:00:50.90,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:50.90,0:00:51.00,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:51.00,0:00:51.10,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
-Dialogue: 0,0:00:51.10,0:00:51.20,Default,,408,771.0,861.0,,With schools to follow, opening on May eighteenth.
+Dialogue: 0,0:00:51.10,0:00:51.20,Default,,402,777.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:51.20,0:00:51.30,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:51.30,0:00:51.40,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:51.40,0:00:51.50,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
@@ -514,144 +514,144 @@ Dialogue: 0,0:00:51.80,0:00:51.90,Default,,410,769.0,861.0,,With schools to foll
 Dialogue: 0,0:00:51.90,0:00:52.00,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:52.00,0:00:52.04,Default,,410,769.0,861.0,,With schools to follow, opening on May eighteenth.
 Dialogue: 0,0:00:53.37,0:00:53.40,Default,,210,813.0,281.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:53.40,0:00:53.50,Default,,209,814.0,283.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:53.50,0:00:53.60,Default,,210,813.0,285.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:53.60,0:00:53.70,Default,,209,814.0,287.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:53.70,0:00:53.80,Default,,207,816.0,287.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:53.80,0:00:53.90,Default,,205,818.0,287.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:53.90,0:00:54.00,Default,,203,820.0,286.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.00,0:00:54.10,Default,,204,819.0,285.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.10,0:00:54.20,Default,,205,818.0,285.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.20,0:00:54.30,Default,,206,817.0,285.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.30,0:00:54.40,Default,,207,816.0,285.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.40,0:00:54.50,Default,,208,815.0,285.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.50,0:00:54.60,Default,,209,814.0,287.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.60,0:00:54.70,Default,,210,813.0,287.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.70,0:00:54.80,Default,,211,812.0,289.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.80,0:00:54.90,Default,,212,811.0,291.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:54.90,0:00:55.00,Default,,210,813.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.00,0:00:55.10,Default,,208,815.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.10,0:00:55.20,Default,,206,817.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.20,0:00:55.30,Default,,204,819.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.30,0:00:55.40,Default,,202,821.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.40,0:00:55.50,Default,,200,823.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.50,0:00:55.60,Default,,198,825.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.60,0:00:55.70,Default,,196,827.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.70,0:00:55.80,Default,,194,829.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.80,0:00:55.90,Default,,192,831.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:55.90,0:00:56.00,Default,,190,833.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:56.00,0:00:56.10,Default,,188,835.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:56.10,0:00:56.20,Default,,186,837.0,292.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:56.20,0:00:56.30,Default,,187,836.0,294.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:56.30,0:00:56.40,Default,,188,835.0,296.0,,The Czech Republic has experienced a much lighter outbreak
-Dialogue: 0,0:00:56.40,0:00:56.49,Default,,189,834.0,298.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:53.40,0:00:53.50,Default,,209,814.0,289.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:53.50,0:00:53.60,Default,,215,808.0,293.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:53.60,0:00:53.70,Default,,210,813.0,300.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:53.70,0:00:53.80,Default,,204,819.0,295.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:53.80,0:00:53.90,Default,,198,825.0,290.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:53.90,0:00:54.00,Default,,199,824.0,283.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.00,0:00:54.10,Default,,206,817.0,282.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.10,0:00:54.20,Default,,213,810.0,282.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.20,0:00:54.30,Default,,220,803.0,281.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.30,0:00:54.40,Default,,228,795.0,281.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.40,0:00:54.50,Default,,230,793.0,281.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.50,0:00:54.60,Default,,235,788.0,287.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.60,0:00:54.70,Default,,240,783.0,281.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.70,0:00:54.80,Default,,242,781.0,289.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.80,0:00:54.90,Default,,243,780.0,297.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:54.90,0:00:55.00,Default,,235,788.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.00,0:00:55.10,Default,,227,796.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.10,0:00:55.20,Default,,219,804.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.20,0:00:55.30,Default,,211,812.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.30,0:00:55.40,Default,,203,820.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.40,0:00:55.50,Default,,195,828.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.50,0:00:55.60,Default,,187,836.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.60,0:00:55.70,Default,,179,844.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.70,0:00:55.80,Default,,171,852.0,299.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.80,0:00:55.90,Default,,163,860.0,298.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:55.90,0:00:56.00,Default,,155,868.0,297.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:56.00,0:00:56.10,Default,,147,876.0,296.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:56.10,0:00:56.20,Default,,139,884.0,295.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:56.20,0:00:56.30,Default,,144,879.0,301.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:56.30,0:00:56.40,Default,,149,874.0,307.0,,The Czech Republic has experienced a much lighter outbreak
+Dialogue: 0,0:00:56.40,0:00:56.49,Default,,154,869.0,313.0,,The Czech Republic has experienced a much lighter outbreak
 Dialogue: 0,0:00:56.49,0:00:56.50,Default,,0,0,0,,compared to many of its neighbours
-Dialogue: 0,0:00:56.50,0:00:56.60,Default,,540,522.0,691.0,,compared to many of its neighbours
+Dialogue: 0,0:00:56.50,0:00:56.60,Default,,550,512.0,691.0,,compared to many of its neighbours
 Dialogue: 0,0:00:56.60,0:00:56.70,Default,,542,520.0,691.0,,compared to many of its neighbours
 Dialogue: 0,0:00:56.70,0:00:56.80,Default,,540,522.0,691.0,,compared to many of its neighbours
-Dialogue: 0,0:00:56.80,0:00:56.90,Default,,540,522.0,693.0,,compared to many of its neighbours
+Dialogue: 0,0:00:56.80,0:00:56.90,Default,,540,522.0,699.0,,compared to many of its neighbours
 Dialogue: 0,0:00:56.90,0:00:57.00,Default,,540,522.0,691.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.00,0:00:57.10,Default,,540,522.0,693.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.10,0:00:57.20,Default,,540,522.0,695.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.00,0:00:57.10,Default,,540,522.0,699.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.10,0:00:57.20,Default,,540,522.0,701.0,,compared to many of its neighbours
 Dialogue: 0,0:00:57.20,0:00:57.30,Default,,540,522.0,693.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.30,0:00:57.40,Default,,538,524.0,694.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.40,0:00:57.50,Default,,538,524.0,696.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.50,0:00:57.60,Default,,538,524.0,698.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.60,0:00:57.70,Default,,539,523.0,700.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.70,0:00:57.80,Default,,540,522.0,701.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.80,0:00:57.90,Default,,538,524.0,701.0,,compared to many of its neighbours
-Dialogue: 0,0:00:57.90,0:00:58.00,Default,,536,526.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.30,0:00:57.40,Default,,532,530.0,694.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.40,0:00:57.50,Default,,538,524.0,700.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.50,0:00:57.60,Default,,545,517.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.60,0:00:57.70,Default,,550,512.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.70,0:00:57.80,Default,,558,504.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.80,0:00:57.90,Default,,550,512.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:57.90,0:00:58.00,Default,,542,520.0,701.0,,compared to many of its neighbours
 Dialogue: 0,0:00:58.00,0:00:58.10,Default,,534,528.0,701.0,,compared to many of its neighbours
-Dialogue: 0,0:00:58.10,0:00:58.20,Default,,532,530.0,701.0,,compared to many of its neighbours
-Dialogue: 0,0:00:58.20,0:00:58.30,Default,,530,532.0,701.0,,compared to many of its neighbours
-Dialogue: 0,0:00:58.30,0:00:58.40,Default,,528,534.0,701.0,,compared to many of its neighbours
-Dialogue: 0,0:00:58.40,0:00:58.46,Default,,526,536.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:58.10,0:00:58.20,Default,,526,536.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:58.20,0:00:58.30,Default,,518,544.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:58.30,0:00:58.40,Default,,510,552.0,701.0,,compared to many of its neighbours
+Dialogue: 0,0:00:58.40,0:00:58.46,Default,,502,560.0,701.0,,compared to many of its neighbours
 Dialogue: 0,0:00:58.62,0:00:58.70,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:58.70,0:00:58.80,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:58.70,0:00:58.80,Default,,592,623.0,691.0,,and from Monday Czechs will be allowed to leave home
 Dialogue: 0,0:00:58.80,0:00:58.90,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:58.90,0:00:59.00,Default,,598,617.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.00,0:00:59.10,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.10,0:00:59.20,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.20,0:00:59.30,Default,,602,613.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.30,0:00:59.40,Default,,604,611.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.40,0:00:59.50,Default,,606,609.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.50,0:00:59.60,Default,,604,611.0,691.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.60,0:00:59.70,Default,,603,612.0,693.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.70,0:00:59.80,Default,,602,613.0,692.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.80,0:00:59.90,Default,,600,615.0,692.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:00:59.90,0:01:00.00,Default,,600,615.0,690.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:01:00.00,0:01:00.10,Default,,600,615.0,688.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:01:00.10,0:01:00.20,Default,,598,617.0,687.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:01:00.20,0:01:00.30,Default,,596,619.0,686.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:01:00.30,0:01:00.40,Default,,597,618.0,686.0,,and from Monday Czechs will be allowed to leave home
-Dialogue: 0,0:01:00.40,0:01:00.49,Default,,595,620.0,685.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:58.90,0:00:59.00,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.00,0:00:59.10,Default,,592,623.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.10,0:00:59.20,Default,,584,631.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.20,0:00:59.30,Default,,592,623.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.30,0:00:59.40,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.40,0:00:59.50,Default,,608,607.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.50,0:00:59.60,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.60,0:00:59.70,Default,,600,615.0,699.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.70,0:00:59.80,Default,,600,615.0,691.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.80,0:00:59.90,Default,,600,615.0,683.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:00:59.90,0:01:00.00,Default,,592,623.0,683.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:01:00.00,0:01:00.10,Default,,599,616.0,682.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:01:00.10,0:01:00.20,Default,,592,623.0,678.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:01:00.20,0:01:00.30,Default,,585,630.0,674.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:01:00.30,0:01:00.40,Default,,592,623.0,671.0,,and from Monday Czechs will be allowed to leave home
+Dialogue: 0,0:01:00.40,0:01:00.49,Default,,585,630.0,667.0,,and from Monday Czechs will be allowed to leave home
 Dialogue: 0,0:01:00.49,0:01:00.50,Default,,0,0,0,,whenever they want and gather in groups of ten.
 Dialogue: 0,0:01:00.50,0:01:00.60,Default,,650,516.0,471.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:00.60,0:01:00.70,Default,,650,516.0,473.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:00.70,0:01:00.80,Default,,651,515.0,474.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:00.80,0:01:00.90,Default,,652,514.0,475.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:00.90,0:01:01.00,Default,,651,515.0,477.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.00,0:01:01.10,Default,,652,514.0,478.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.10,0:01:01.20,Default,,653,513.0,479.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.20,0:01:01.30,Default,,654,512.0,481.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.30,0:01:01.40,Default,,655,511.0,482.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.40,0:01:01.50,Default,,656,510.0,483.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.50,0:01:01.60,Default,,654,512.0,483.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.60,0:01:01.70,Default,,653,513.0,485.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.70,0:01:01.80,Default,,654,512.0,486.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.80,0:01:01.90,Default,,653,513.0,488.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:01.90,0:01:02.00,Default,,653,513.0,490.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.00,0:01:02.10,Default,,654,512.0,491.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.10,0:01:02.20,Default,,655,511.0,492.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.20,0:01:02.30,Default,,656,510.0,494.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.30,0:01:02.40,Default,,655,511.0,493.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.40,0:01:02.50,Default,,654,512.0,495.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.50,0:01:02.60,Default,,653,513.0,494.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.60,0:01:02.70,Default,,651,515.0,496.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.70,0:01:02.80,Default,,649,517.0,495.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.80,0:01:02.90,Default,,647,519.0,496.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:02.90,0:01:03.00,Default,,645,521.0,497.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:03.00,0:01:03.10,Default,,646,520.0,496.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:03.10,0:01:03.20,Default,,647,519.0,496.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:03.20,0:01:03.30,Default,,648,518.0,496.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:03.30,0:01:03.40,Default,,646,520.0,497.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:03.40,0:01:03.50,Default,,644,522.0,498.0,,whenever they want and gather in groups of ten.
-Dialogue: 0,0:01:03.50,0:01:03.53,Default,,642,524.0,499.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:00.60,0:01:00.70,Default,,650,516.0,479.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:00.70,0:01:00.80,Default,,657,509.0,481.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:00.80,0:01:00.90,Default,,664,502.0,482.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:00.90,0:01:01.00,Default,,659,507.0,489.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.00,0:01:01.10,Default,,666,500.0,491.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.10,0:01:01.20,Default,,673,493.0,493.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.20,0:01:01.30,Default,,679,487.0,499.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.30,0:01:01.40,Default,,686,480.0,501.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.40,0:01:01.50,Default,,693,473.0,503.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.50,0:01:01.60,Default,,685,481.0,501.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.60,0:01:01.70,Default,,678,488.0,505.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.70,0:01:01.80,Default,,685,481.0,506.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.80,0:01:01.90,Default,,679,487.0,512.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:01.90,0:01:02.00,Default,,675,491.0,520.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.00,0:01:02.10,Default,,682,484.0,522.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.10,0:01:02.20,Default,,689,477.0,522.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.20,0:01:02.30,Default,,695,471.0,528.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.30,0:01:02.40,Default,,690,476.0,522.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.40,0:01:02.50,Default,,683,483.0,527.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.50,0:01:02.60,Default,,678,488.0,521.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.60,0:01:02.70,Default,,671,495.0,526.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.70,0:01:02.80,Default,,665,501.0,521.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.80,0:01:02.90,Default,,657,509.0,520.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:02.90,0:01:03.00,Default,,649,517.0,521.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:03.00,0:01:03.10,Default,,653,513.0,515.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:03.10,0:01:03.20,Default,,658,508.0,510.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:03.20,0:01:03.30,Default,,665,501.0,508.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:03.30,0:01:03.40,Default,,657,509.0,510.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:03.40,0:01:03.50,Default,,649,517.0,513.0,,whenever they want and gather in groups of ten.
+Dialogue: 0,0:01:03.50,0:01:03.53,Default,,641,525.0,516.0,,whenever they want and gather in groups of ten.
 Dialogue: 0,0:01:03.83,0:01:03.90,Default,,490,665.0,561.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:03.90,0:01:04.00,Default,,488,667.0,560.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.00,0:01:04.10,Default,,486,669.0,559.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.10,0:01:04.20,Default,,486,669.0,558.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.20,0:01:04.30,Default,,485,670.0,557.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.30,0:01:04.40,Default,,483,672.0,556.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.40,0:01:04.50,Default,,482,673.0,555.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.50,0:01:04.60,Default,,481,674.0,554.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.60,0:01:04.70,Default,,480,675.0,553.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.70,0:01:04.80,Default,,480,675.0,552.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.80,0:01:04.90,Default,,479,676.0,551.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:04.90,0:01:05.00,Default,,478,677.0,550.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.00,0:01:05.10,Default,,477,678.0,549.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.10,0:01:05.20,Default,,477,678.0,548.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.20,0:01:05.30,Default,,475,680.0,547.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.30,0:01:05.40,Default,,475,680.0,546.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.40,0:01:05.50,Default,,473,682.0,545.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.50,0:01:05.60,Default,,473,682.0,544.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.60,0:01:05.70,Default,,471,684.0,543.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.70,0:01:05.80,Default,,471,684.0,542.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.80,0:01:05.90,Default,,469,686.0,541.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:05.90,0:01:06.00,Default,,469,686.0,540.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.00,0:01:06.10,Default,,469,686.0,539.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.10,0:01:06.20,Default,,470,685.0,539.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.20,0:01:06.30,Default,,471,684.0,539.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.30,0:01:06.40,Default,,470,685.0,538.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.40,0:01:06.50,Default,,471,684.0,538.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.50,0:01:06.60,Default,,471,684.0,537.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.60,0:01:06.70,Default,,471,684.0,536.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.70,0:01:06.80,Default,,471,684.0,535.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.80,0:01:06.90,Default,,471,684.0,534.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:06.90,0:01:07.00,Default,,472,683.0,534.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:07.00,0:01:07.10,Default,,472,683.0,533.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:07.10,0:01:07.20,Default,,473,682.0,533.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:07.20,0:01:07.30,Default,,473,682.0,532.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:07.30,0:01:07.40,Default,,473,682.0,531.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:07.40,0:01:07.50,Default,,473,682.0,530.0,,EU citizens will even be allowed to visit for business.
-Dialogue: 0,0:01:07.50,0:01:07.56,Default,,473,682.0,529.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:03.90,0:01:04.00,Default,,483,672.0,556.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.00,0:01:04.10,Default,,476,679.0,551.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.10,0:01:04.20,Default,,478,677.0,544.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.20,0:01:04.30,Default,,477,678.0,537.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.30,0:01:04.40,Default,,471,684.0,531.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.40,0:01:04.50,Default,,470,685.0,524.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.50,0:01:04.60,Default,,469,686.0,517.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.60,0:01:04.70,Default,,468,687.0,510.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.70,0:01:04.80,Default,,472,683.0,504.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.80,0:01:04.90,Default,,470,685.0,497.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:04.90,0:01:05.00,Default,,470,685.0,489.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.00,0:01:05.10,Default,,468,687.0,482.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.10,0:01:05.20,Default,,472,683.0,476.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.20,0:01:05.30,Default,,465,690.0,472.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.30,0:01:05.40,Default,,471,684.0,468.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.40,0:01:05.50,Default,,463,692.0,465.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.50,0:01:05.60,Default,,467,688.0,459.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.60,0:01:05.70,Default,,459,696.0,456.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.70,0:01:05.80,Default,,460,695.0,449.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.80,0:01:05.90,Default,,452,703.0,446.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:05.90,0:01:06.00,Default,,454,701.0,439.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.00,0:01:06.10,Default,,460,695.0,435.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.10,0:01:06.20,Default,,467,688.0,435.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.20,0:01:06.30,Default,,474,681.0,434.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.30,0:01:06.40,Default,,470,685.0,427.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.40,0:01:06.50,Default,,477,678.0,427.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.50,0:01:06.60,Default,,483,672.0,422.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.60,0:01:06.70,Default,,489,666.0,418.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.70,0:01:06.80,Default,,495,660.0,414.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.80,0:01:06.90,Default,,501,654.0,410.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:06.90,0:01:07.00,Default,,508,647.0,410.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:07.00,0:01:07.10,Default,,514,641.0,406.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:07.10,0:01:07.20,Default,,521,634.0,406.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:07.20,0:01:07.30,Default,,520,635.0,399.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:07.30,0:01:07.40,Default,,520,635.0,391.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:07.40,0:01:07.50,Default,,520,635.0,383.0,,EU citizens will even be allowed to visit for business.
+Dialogue: 0,0:01:07.50,0:01:07.56,Default,,520,635.0,391.0,,EU citizens will even be allowed to visit for business.
