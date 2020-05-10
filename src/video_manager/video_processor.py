@@ -320,7 +320,7 @@ elif algorithm == "stable":
       print("\n\n======= Detecting START of transcript block =======")
       print("Transcript block STARTs at %d milliseconds" % milliseconds)
       print("The %dth frame at the %d second will be processed." % (count, seconds))
-      frame_dir = os.path.join(file_dir, "frames", "frame_%d-%d-%d" % 
+      frame_dir = os.path.join(file_dir, "frames_stable", "frame_%d-%d-%d" % 
         (count, get_frame_number(srt_handler.get_middle_time_ms(), fps), get_frame_number(srt_handler.get_end_time_ms(), fps)))
       create_dir(frame_dir=frame_dir)
 

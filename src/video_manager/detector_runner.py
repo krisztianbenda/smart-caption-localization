@@ -7,6 +7,7 @@ import numpy as np
 import argparse
 import os
 import shutil
+import time
 from threading import Thread
 from PIL import Image
 from sklearn.preprocessing import normalize
@@ -119,48 +120,60 @@ def get_coordinates(image_handler, output_folder, detectors, subtitle_width, sub
         raise
     print("Successfully created directory: %s" % output_folder)
 
+    times = {'canny': 0, 'object': 0, 'text': 0, 'face': 0, 'logo': 0}
     images = []
     image_paths = image_handler.get_images()
     for image_number in range(0, len(image_handler.get_images())):
         if 'c' in detectors:
             canny_output_file = os.path.join(output_folder, 'canny_detected_' + str(image_number) + '.tiff')
             canny_thread = Thread(target=run_canny, args=(image_paths[image_number], canny_output_file))
+            times['canny'] = time.time()
             canny_thread.start()
         if 'o' in detectors:  
             object_output_file = os.path.join(output_folder, 'object_detected_' + str(image_number) + '.tiff')
             object_thread = Thread(target=run_object, args=(image_paths[image_number], object_output_file))
+            times['object'] = time.time()
             object_thread.start()
         if 't' in detectors:
             text_output_file = os.path.join(output_folder, 'text_detected_' + str(image_number) + '.tiff')
             text_thread = Thread(target=run_text, args=(image_paths[image_number], text_output_file))
+            times['text'] = time.time()
             text_thread.start()
         if 'l' in detectors:    
             logo_output_file = os.path.join(output_folder, 'logo_detected_' + str(image_number) + '.tiff')
             logo_thread = Thread(target=run_logo, args=(image_paths[image_number], logo_output_file))
+            times['logo'] = time.time()
             logo_thread.start()
         if 'f' in detectors:    
             face_output_file = os.path.join(output_folder, 'face_detected_' + str(image_number) + '.tiff')
             face_thread = Thread(target=run_face, args=(image_paths[image_number], face_output_file))
+            times['face'] = time.time()
             face_thread.start()
 
-        if 'c' in detectors:
-            canny_thread.join()
-            canny_map = np.array(Image.open(canny_output_file))
-            images.append(np.where(canny_map==255,1,canny_map))
-        if 'o' in detectors:
-            object_thread.join()
-            images.append(np.array(Image.open(object_output_file)))
-        if 't' in detectors:
-            text_thread.join()
-            images.append(np.array(Image.open(text_output_file)))
         if 'l' in detectors:
             logo_thread.join()
+            times['logo'] = time.time() - times['logo']
             images.append(np.array(Image.open(logo_output_file)))
+        if 'c' in detectors:
+            canny_thread.join()
+            times['canny'] = time.time() - times['canny']
+            canny_map = np.array(Image.open(canny_output_file))
+            images.append(np.where(canny_map==255,1,canny_map))
+        if 't' in detectors:
+            text_thread.join()
+            times['text'] = time.time() - times['text']
+            images.append(np.array(Image.open(text_output_file)))
         if 'f' in detectors:
             face_thread.join()
+            times['face'] = time.time() - times['face']
             images.append(np.array(Image.open(face_output_file)))
+        if 'o' in detectors:
+            object_thread.join()
+            times['object'] = time.time() - times['object']
+            images.append(np.array(Image.open(object_output_file)))
 
     print("The image shape is:{}".format(images[0].shape))
+    print("The detectors running time is the following: {}".format(times))
 
     width, height = Image.open(image_paths[0]).size
     white_frame = 30
