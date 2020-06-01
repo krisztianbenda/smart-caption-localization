@@ -1,6 +1,7 @@
 # result files
 src/video_manager/frames/
 src/video_manager/frames_dynamic/
+src/video_manager/frames_stable/
 docs/dipterv2-submission/~$esis-work.docx
 src/video_manager/frames_fix/
 src/video_manager/try/
